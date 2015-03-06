@@ -6,11 +6,10 @@ gem 'pg'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-# gem 'typhoeus', '0.4.2' #for vcr
-
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
-  # gem 'vcr'
+  gem 'vcr'
+  gem 'webmock', '< 1.16'
 end
 
 #api
