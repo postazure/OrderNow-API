@@ -7,6 +7,7 @@ gem 'pg'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+gem 'travis', '~> 1.7.5'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
