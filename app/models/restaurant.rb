@@ -2,6 +2,8 @@ class Restaurant < ActiveRecord::Base
   validate :find_and_save_or_update
 
   def find_and_save_or_update
+    # errors: exact   -> no change to record
+    # errors: update  -> change has been made, requires update
     existing_record = Restaurant.find_by name: self.name
     return if existing_record.nil?
 
