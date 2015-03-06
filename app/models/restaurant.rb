@@ -6,13 +6,19 @@ class Restaurant < ActiveRecord::Base
       "updated_at",
     ]
 
+    differences = []
     other_restaurant.attributes.map do |attribute|
       attr_method = attribute[0]
       next if skip_attr.include?(attr_method)
 
       if self.send(attr_method) != other_restaurant.send(attr_method)
-        attr_method
+        differences << attr_method
       end
     end
+    differences
+  end
+
+  def diff? other_restaurant
+    !self.diff(other_restaurant).empty?
   end
 end
