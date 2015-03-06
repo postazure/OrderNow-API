@@ -7,6 +7,10 @@ gem 'pg'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
 #api
 gem 'rack-cors', '~> 0.3.1'
 
