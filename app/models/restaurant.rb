@@ -1,4 +1,17 @@
 class Restaurant < ActiveRecord::Base
+  validate :find_and_save_or_update
+
+  def find_and_save_or_update
+    existing_record = Restaurant.find_by name: self.name
+    return if existing_record.nil?
+
+    if self.diff?(existing_record)
+      errors.add(:existing, "update")
+    else
+      errors.add(:existing, "exact")
+    end
+  end
+
   def diff other_restaurant
     skip_attr = [
       "id",
