@@ -1,0 +1,3176 @@
+{
+  "0": {
+    "default_prep_duration": 20,
+    "address": "171 2nd Street",
+    "id": 1660,
+    "slug": "ovo-cafe--san-francisco-ca",
+    "latitude": "37.787247",
+    "longitude": "-122.398636",
+    "name": "Ovo Cafe",
+    "order_limit": 10000,
+    "order_item_limit": null,
+    "phone_number": "415-908-3888",
+    "pickup_instructions": "Please go to the pickup area and ask for your OrderAhead order by name.",
+    "position": 1963,
+    "sales_tax_percentage": "8.75",
+    "supported_preparation_type": 1,
+    "supported_payment_type": 0,
+    "supports_custom_ready_time": true,
+    "bio": "",
+    "website_url": "http://ovocafe.com/",
+    "yelp_url": "http://www.yelp.com/biz/ovo-cafe-san-francisco",
+    "facebook_url": "https://www.facebook.com/cafeovo",
+    "twitter_handle": "ovocafe",
+    "feedback_email": "",
+    "time_zone_abbreviation": "PST",
+    "allows_free_delivery": true,
+    "delivery_market_name": "San Francisco",
+    "city_slug": "san-francisco-ca",
+    "week_store_hours": {
+      "0": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ],
+      "4": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        }
+      ],
+      "-1": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ]
+    },
+    "location": "San Francisco, CA",
+    "time_zone_offset": -480,
+    "zip_code": "94105",
+    "coming_soon_at": null,
+    "coming_soon?": false,
+    "supported_preparation_types": [
+      4,
+      0
+    ],
+    "store_delivery_zones": [
+      {
+        "latitude": "37.787247",
+        "longitude": "-122.398636",
+        "radius": "5.0",
+        "latitude_2": null,
+        "longitude_2": null,
+        "polygon": null,
+        "description": null,
+        "latitude2": null,
+        "longitude2": null
+      }
+    ],
+    "all_menu_item_options": [
+      {
+        "id": 323015,
+        "is_taxed": true,
+        "name": "Butter Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323016,
+        "is_taxed": true,
+        "name": "Flaky Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323017,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 250
+      },
+      {
+        "id": 323018,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 50
+      },
+      {
+        "id": 323019,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 125
+      },
+      {
+        "id": 323020,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 0
+      },
+      {
+        "id": 323021,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 0
+      },
+      {
+        "id": 323022,
+        "is_taxed": true,
+        "name": "Chicken",
+        "price": 0
+      },
+      {
+        "id": 323023,
+        "is_taxed": true,
+        "name": "Beef",
+        "price": 75
+      },
+      {
+        "id": 323024,
+        "is_taxed": true,
+        "name": "Butter",
+        "price": 0
+      },
+      {
+        "id": 323025,
+        "is_taxed": true,
+        "name": "Cheese",
+        "price": 0
+      },
+      {
+        "id": 323026,
+        "is_taxed": true,
+        "name": "Ham & Egg",
+        "price": 40
+      },
+      {
+        "id": 323027,
+        "is_taxed": true,
+        "name": "Brown Rice",
+        "price": 0
+      },
+      {
+        "id": 323028,
+        "is_taxed": true,
+        "name": "Fried Rice",
+        "price": 0
+      },
+      {
+        "id": 323029,
+        "is_taxed": true,
+        "name": "White Rice",
+        "price": 0
+      },
+      {
+        "id": 323030,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 0
+      },
+      {
+        "id": 323031,
+        "is_taxed": true,
+        "name": "Spaghetti",
+        "price": 0
+      },
+      {
+        "id": 323032,
+        "is_taxed": true,
+        "name": "Curryous George",
+        "price": 0
+      },
+      {
+        "id": 323033,
+        "is_taxed": true,
+        "name": "Dreamy Creamy",
+        "price": 0
+      },
+      {
+        "id": 323034,
+        "is_taxed": true,
+        "name": "Firecrackin Pepper",
+        "price": 0
+      },
+      {
+        "id": 323035,
+        "is_taxed": true,
+        "name": "Tang-mato",
+        "price": 0
+      },
+      {
+        "id": 323036,
+        "is_taxed": true,
+        "name": "Tart & Milk Tea",
+        "price": 350
+      },
+      {
+        "id": 323037,
+        "is_taxed": true,
+        "name": "Tart & Lemon Tea",
+        "price": 350
+      },
+      {
+        "id": 323038,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323039,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 50
+      },
+      {
+        "id": 323040,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323041,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 25
+      },
+      {
+        "id": 323042,
+        "is_taxed": true,
+        "name": "Hot",
+        "price": 0
+      },
+      {
+        "id": 323043,
+        "is_taxed": true,
+        "name": "Iced",
+        "price": 30
+      },
+      {
+        "id": 348867,
+        "is_taxed": true,
+        "name": "Fried Egg",
+        "price": 100
+      }
+    ],
+    "option_sets": [
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47593,
+        "menu_item_option_ids": [
+          323038,
+          323039
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47594,
+        "menu_item_option_ids": [
+          323040,
+          323041
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Meat Choices",
+        "price_per_additional": null,
+        "id": 47587,
+        "menu_item_option_ids": [
+          323020,
+          323021
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Protein Choices",
+        "price_per_additional": null,
+        "id": 47589,
+        "menu_item_option_ids": [
+          323024,
+          323025,
+          323026
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Side Choices",
+        "price_per_additional": null,
+        "id": 47590,
+        "menu_item_option_ids": [
+          323027,
+          323028,
+          323029,
+          323030,
+          323031
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Sauce Choices",
+        "price_per_additional": null,
+        "id": 47591,
+        "menu_item_option_ids": [
+          323032,
+          323033,
+          323034,
+          323035
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Noodles Choices",
+        "price_per_additional": null,
+        "id": 47588,
+        "menu_item_option_ids": [
+          323022,
+          323023
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Options",
+        "price_per_additional": null,
+        "id": 47586,
+        "menu_item_option_ids": [
+          323018,
+          323019
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 47585,
+        "menu_item_option_ids": [
+          323015,
+          323016,
+          323017
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Hot or Iced?",
+        "price_per_additional": null,
+        "id": 47595,
+        "menu_item_option_ids": [
+          323042,
+          323043
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 53353,
+        "menu_item_option_ids": [
+          348867
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Make It A Combo",
+        "price_per_additional": null,
+        "id": 47592,
+        "menu_item_option_ids": [
+          323036,
+          323037
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cafes"
+      },
+      {
+        "name": "Bakeries"
+      },
+      {
+        "name": "Milk Tea"
+      }
+    ],
+    "fees": [],
+    "store_order_limits": [
+      {
+        "preparation_type_id": 4,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      },
+      {
+        "preparation_type_id": 0,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      }
+    ],
+    "store_scaling_delivery_attributes": {
+      "mile_threshold": 0,
+      "minute_increment": 1,
+      "mile_interval": 0.25
+    },
+    "scaling_prep_attributes": {
+      "dollar_interval": 20,
+      "dollar_threshold": 65,
+      "duration_interval": 5,
+      "item_interval": 5,
+      "item_threshold": 9,
+      "store_scaling_max": 45
+    },
+    "additional_prep_duration": 5,
+    "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1660/thumb_o-2.jpg",
+    "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1660/thumb_ovo_cafe.png",
+    "delivery_prep_bump": 0,
+    "max_delivery_time": 22,
+    "min_delivery_time": 7,
+    "tips_allowed": true,
+    "store_message": null,
+    "text_for_share_email": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_sms": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_twitter": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "open_now?": true,
+    "busy_now?": false,
+    "not_accepting_orders": true,
+    "store_hours": [
+      {
+        "custom_date": null,
+        "day_name_short": "Fri",
+        "menu_set": -1,
+        "time_open": 480,
+        "time_close": 1230,
+        "display_name": "All Day",
+        "relevant_menu_ids": [
+          3980,
+          3982
+        ]
+      }
+    ],
+    "hours_today": "Open 8:00 AM - 8:30 PM",
+    "store_time": "2015-03-06T09:57:59-08:00",
+    "orderable": false,
+    "menu_categories": [
+      {
+        "id": 33728,
+        "name": "Breakfast",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Scrambled egg croissant.",
+            "id": 291678,
+            "is_taxed": true,
+            "name": "Scrambled Egg Croissant",
+            "preparation_time": 1,
+            "price": 375,
+            "option_set_ids": [
+              47586,
+              47585
+            ]
+          },
+          {
+            "description": "With your choice of bacon or ham.",
+            "id": 291679,
+            "is_taxed": true,
+            "name": "Cheese Toast with Tomato",
+            "preparation_time": 1,
+            "price": 450,
+            "option_set_ids": [
+              47587,
+              47585
+            ]
+          },
+          {
+            "description": "Mushrooms, onions, tomato and ham omelet with toast.",
+            "id": 291680,
+            "is_taxed": true,
+            "name": "Mushrooms, Onions, Tomato & Ham Omelet with Toast",
+            "preparation_time": 1,
+            "price": 475,
+            "option_set_ids": [
+              47585
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33730,
+        "name": "Ovo Cafe Meals",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291685,
+            "is_taxed": true,
+            "name": "Grilled Chicken",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291686,
+            "is_taxed": true,
+            "name": "Grilled Pork Chop",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291687,
+            "is_taxed": true,
+            "name": "Curry Beef Brisket",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291688,
+            "is_taxed": true,
+            "name": "Fish Cutlet",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291689,
+            "is_taxed": true,
+            "name": "Chicken Cutlet",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291690,
+            "is_taxed": true,
+            "name": "Pork Cutlet",
+            "preparation_time": 1,
+            "price": 900,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291691,
+            "is_taxed": true,
+            "name": "Curry Veggie Mixed",
+            "preparation_time": 1,
+            "price": 750,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33731,
+        "name": "Soups",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291692,
+            "is_taxed": true,
+            "name": "HK Style Borscht",
+            "preparation_time": 1,
+            "price": 375,
+            "option_set_ids": [
+              47593
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33732,
+        "name": "Snacks",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Six chicken bites served with sauce.",
+            "id": 291694,
+            "is_taxed": true,
+            "name": "Chicken Bites",
+            "preparation_time": 1,
+            "price": 525,
+            "option_set_ids": []
+          },
+          {
+            "description": "Six fish fries served with sauce.",
+            "id": 291695,
+            "is_taxed": true,
+            "name": "Fish Fries.",
+            "preparation_time": 1,
+            "price": 575,
+            "option_set_ids": []
+          },
+          {
+            "description": "Three pieces of siu mai.",
+            "id": 291696,
+            "is_taxed": true,
+            "name": "Siu Mai",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": []
+          },
+          {
+            "description": "Four fish balls.",
+            "id": 291697,
+            "is_taxed": true,
+            "name": "Fish Balls",
+            "preparation_time": 1,
+            "price": 275,
+            "option_set_ids": []
+          },
+          {
+            "description": "Dipping sauce.",
+            "id": 291698,
+            "is_taxed": true,
+            "name": "Dipping Sauce",
+            "preparation_time": 1,
+            "price": 175,
+            "option_set_ids": []
+          }
+        ]
+      },
+      {
+        "id": 33733,
+        "name": "Tarts",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Signature flaky egg tart.",
+            "id": 291699,
+            "is_taxed": true,
+            "name": "Signature Flaky Egg Tart",
+            "preparation_time": 1,
+            "price": 125,
+            "option_set_ids": []
+          },
+          {
+            "description": "Butter egg tart.",
+            "id": 291700,
+            "is_taxed": true,
+            "name": "Butter Egg Tart",
+            "preparation_time": 1,
+            "price": 125,
+            "option_set_ids": []
+          },
+          {
+            "description": "Coconut tart.",
+            "id": 291701,
+            "is_taxed": true,
+            "name": "Coconut Tart",
+            "preparation_time": 1,
+            "price": 200,
+            "option_set_ids": []
+          },
+          {
+            "description": "Pecan tart.",
+            "id": 291702,
+            "is_taxed": true,
+            "name": "Pecan Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Bib pork tart.",
+            "id": 291703,
+            "is_taxed": true,
+            "name": "BBQ Pork Tart",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": []
+          },
+          {
+            "description": "Apple tart.",
+            "id": 291704,
+            "is_taxed": true,
+            "name": "Apple Tart",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": []
+          },
+          {
+            "description": "Mango tart.",
+            "id": 291705,
+            "is_taxed": true,
+            "name": "Mango Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Lychee tart.",
+            "id": 291706,
+            "is_taxed": true,
+            "name": "Lychee Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Strawberry tart.",
+            "id": 291707,
+            "is_taxed": true,
+            "name": "Strawberry Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Blueberry tart.",
+            "id": 291708,
+            "is_taxed": true,
+            "name": "Blueberry Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Chocolate tart.",
+            "id": 291709,
+            "is_taxed": true,
+            "name": "Chocolate Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Taro tart.",
+            "id": 291710,
+            "is_taxed": true,
+            "name": "Taro Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Red bean tart.",
+            "id": 291711,
+            "is_taxed": true,
+            "name": "Red Bean Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Green tea tart.",
+            "id": 291712,
+            "is_taxed": true,
+            "name": "Green Tea Tart",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          }
+        ]
+      },
+      {
+        "id": 33734,
+        "name": "Coffee",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Hong Kong style iced coffee.",
+            "id": 291713,
+            "is_taxed": true,
+            "name": "Hong Kong Style Iced Coffee",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291714,
+            "is_taxed": true,
+            "name": "Hot Coffee",
+            "preparation_time": 1,
+            "price": 150,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291715,
+            "is_taxed": true,
+            "name": "Iced Coffee",
+            "preparation_time": 1,
+            "price": 185,
+            "option_set_ids": [
+              47595
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291716,
+            "is_taxed": true,
+            "name": "Hot Yin Yang",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291717,
+            "is_taxed": true,
+            "name": "Iced Yin Yang",
+            "preparation_time": 1,
+            "price": 275,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33735,
+        "name": "Teas",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291718,
+            "is_taxed": true,
+            "name": "Hot Milk Tea",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291719,
+            "is_taxed": true,
+            "name": "Iced Milk Tea",
+            "preparation_time": 1,
+            "price": 275,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Hot lemon tea.",
+            "id": 291720,
+            "is_taxed": true,
+            "name": "Hot Lemon Tea",
+            "preparation_time": 1,
+            "price": 225,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291721,
+            "is_taxed": true,
+            "name": "Iced Lemon Tea",
+            "preparation_time": 1,
+            "price": 275,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291722,
+            "is_taxed": true,
+            "name": "Iced Mango Mint Tea",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33736,
+        "name": "Espressos",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291723,
+            "is_taxed": true,
+            "name": "Hot Sea Salt Latte",
+            "preparation_time": 1,
+            "price": 450,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291724,
+            "is_taxed": true,
+            "name": "Hot Latte",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced latte (medium).",
+            "id": 291725,
+            "is_taxed": true,
+            "name": "Iced Latte",
+            "preparation_time": 1,
+            "price": 350,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291726,
+            "is_taxed": true,
+            "name": "Hot Mocha",
+            "preparation_time": 1,
+            "price": 400,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced mocha (medium).",
+            "id": 291727,
+            "is_taxed": true,
+            "name": "Iced Mocha",
+            "preparation_time": 1,
+            "price": 450,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291728,
+            "is_taxed": true,
+            "name": "Hot Sweet Creamy Latte",
+            "preparation_time": 1,
+            "price": 425,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced sweet creamy latte.",
+            "id": 291729,
+            "is_taxed": true,
+            "name": "Iced Sweet Creamy Latte",
+            "preparation_time": 1,
+            "price": 475,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291730,
+            "is_taxed": true,
+            "name": "Hot Expresso Milk Tea",
+            "preparation_time": 1,
+            "price": 350,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33737,
+        "name": "Specialties",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291731,
+            "is_taxed": true,
+            "name": "Hot Ovaltine",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291732,
+            "is_taxed": true,
+            "name": "Iced Ovaltine",
+            "preparation_time": 1,
+            "price": 275,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291733,
+            "is_taxed": true,
+            "name": "Iced Black Currant Refresher",
+            "preparation_time": 1,
+            "price": 375,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291734,
+            "is_taxed": true,
+            "name": "Iced Grapefruit Pineapple Soda",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291735,
+            "is_taxed": true,
+            "name": "Iced Arnold Palmer",
+            "preparation_time": 1,
+            "price": 250,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33738,
+        "name": "Smoothies",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291736,
+            "is_taxed": true,
+            "name": "Ovaltine",
+            "preparation_time": 1,
+            "price": 425,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291737,
+            "is_taxed": true,
+            "name": "Kumquat Lemon",
+            "preparation_time": 1,
+            "price": 425,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291738,
+            "is_taxed": true,
+            "name": "Black Currant Lemon",
+            "preparation_time": 1,
+            "price": 450,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      }
+    ],
+    "default_preparation_type_id": 4,
+    "preparation_type": 0,
+    "store_preparation_type_fees": [
+      {
+        "preparation_type_id": 4,
+        "name": "Delivery Fee",
+        "fee_type_id": 0,
+        "item_count": null,
+        "amount": 600,
+        "to_merchant": false
+      }
+    ]
+  },
+  "4": {
+    "default_prep_duration": 20,
+    "address": "171 2nd Street",
+    "id": 1660,
+    "slug": "ovo-cafe--san-francisco-ca",
+    "latitude": "37.787247",
+    "longitude": "-122.398636",
+    "name": "Ovo Cafe",
+    "order_limit": 10000,
+    "order_item_limit": null,
+    "phone_number": "415-908-3888",
+    "pickup_instructions": "Please go to the pickup area and ask for your OrderAhead order by name.",
+    "position": 1963,
+    "sales_tax_percentage": "8.75",
+    "supported_preparation_type": 1,
+    "supported_payment_type": 0,
+    "supports_custom_ready_time": true,
+    "bio": "",
+    "website_url": "http://ovocafe.com/",
+    "yelp_url": "http://www.yelp.com/biz/ovo-cafe-san-francisco",
+    "facebook_url": "https://www.facebook.com/cafeovo",
+    "twitter_handle": "ovocafe",
+    "feedback_email": "",
+    "time_zone_abbreviation": "PST",
+    "allows_free_delivery": true,
+    "delivery_market_name": "San Francisco",
+    "city_slug": "san-francisco-ca",
+    "week_store_hours": {
+      "0": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ],
+      "4": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        }
+      ],
+      "-1": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ]
+    },
+    "location": "San Francisco, CA",
+    "time_zone_offset": -480,
+    "zip_code": "94105",
+    "coming_soon_at": null,
+    "coming_soon?": false,
+    "supported_preparation_types": [
+      4,
+      0
+    ],
+    "store_delivery_zones": [
+      {
+        "latitude": "37.787247",
+        "longitude": "-122.398636",
+        "radius": "5.0",
+        "latitude_2": null,
+        "longitude_2": null,
+        "polygon": null,
+        "description": null,
+        "latitude2": null,
+        "longitude2": null
+      }
+    ],
+    "all_menu_item_options": [
+      {
+        "id": 323015,
+        "is_taxed": true,
+        "name": "Butter Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323016,
+        "is_taxed": true,
+        "name": "Flaky Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323017,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 250
+      },
+      {
+        "id": 323018,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 50
+      },
+      {
+        "id": 323019,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 125
+      },
+      {
+        "id": 323020,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 0
+      },
+      {
+        "id": 323021,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 0
+      },
+      {
+        "id": 323022,
+        "is_taxed": true,
+        "name": "Chicken",
+        "price": 0
+      },
+      {
+        "id": 323023,
+        "is_taxed": true,
+        "name": "Beef",
+        "price": 75
+      },
+      {
+        "id": 323024,
+        "is_taxed": true,
+        "name": "Butter",
+        "price": 0
+      },
+      {
+        "id": 323025,
+        "is_taxed": true,
+        "name": "Cheese",
+        "price": 0
+      },
+      {
+        "id": 323026,
+        "is_taxed": true,
+        "name": "Ham & Egg",
+        "price": 40
+      },
+      {
+        "id": 323027,
+        "is_taxed": true,
+        "name": "Brown Rice",
+        "price": 0
+      },
+      {
+        "id": 323028,
+        "is_taxed": true,
+        "name": "Fried Rice",
+        "price": 0
+      },
+      {
+        "id": 323029,
+        "is_taxed": true,
+        "name": "White Rice",
+        "price": 0
+      },
+      {
+        "id": 323030,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 0
+      },
+      {
+        "id": 323031,
+        "is_taxed": true,
+        "name": "Spaghetti",
+        "price": 0
+      },
+      {
+        "id": 323032,
+        "is_taxed": true,
+        "name": "Curryous George",
+        "price": 0
+      },
+      {
+        "id": 323033,
+        "is_taxed": true,
+        "name": "Dreamy Creamy",
+        "price": 0
+      },
+      {
+        "id": 323034,
+        "is_taxed": true,
+        "name": "Firecrackin Pepper",
+        "price": 0
+      },
+      {
+        "id": 323035,
+        "is_taxed": true,
+        "name": "Tang-mato",
+        "price": 0
+      },
+      {
+        "id": 323036,
+        "is_taxed": true,
+        "name": "Tart & Milk Tea",
+        "price": 350
+      },
+      {
+        "id": 323037,
+        "is_taxed": true,
+        "name": "Tart & Lemon Tea",
+        "price": 350
+      },
+      {
+        "id": 323038,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323039,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 50
+      },
+      {
+        "id": 323040,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323041,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 25
+      },
+      {
+        "id": 323042,
+        "is_taxed": true,
+        "name": "Hot",
+        "price": 0
+      },
+      {
+        "id": 323043,
+        "is_taxed": true,
+        "name": "Iced",
+        "price": 30
+      },
+      {
+        "id": 348867,
+        "is_taxed": true,
+        "name": "Fried Egg",
+        "price": 100
+      }
+    ],
+    "option_sets": [
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47593,
+        "menu_item_option_ids": [
+          323038,
+          323039
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47594,
+        "menu_item_option_ids": [
+          323040,
+          323041
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Meat Choices",
+        "price_per_additional": null,
+        "id": 47587,
+        "menu_item_option_ids": [
+          323020,
+          323021
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Protein Choices",
+        "price_per_additional": null,
+        "id": 47589,
+        "menu_item_option_ids": [
+          323024,
+          323025,
+          323026
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Side Choices",
+        "price_per_additional": null,
+        "id": 47590,
+        "menu_item_option_ids": [
+          323027,
+          323028,
+          323029,
+          323030,
+          323031
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Sauce Choices",
+        "price_per_additional": null,
+        "id": 47591,
+        "menu_item_option_ids": [
+          323032,
+          323033,
+          323034,
+          323035
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Noodles Choices",
+        "price_per_additional": null,
+        "id": 47588,
+        "menu_item_option_ids": [
+          323022,
+          323023
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Options",
+        "price_per_additional": null,
+        "id": 47586,
+        "menu_item_option_ids": [
+          323018,
+          323019
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 47585,
+        "menu_item_option_ids": [
+          323015,
+          323016,
+          323017
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Hot or Iced?",
+        "price_per_additional": null,
+        "id": 47595,
+        "menu_item_option_ids": [
+          323042,
+          323043
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 53353,
+        "menu_item_option_ids": [
+          348867
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Make It A Combo",
+        "price_per_additional": null,
+        "id": 47592,
+        "menu_item_option_ids": [
+          323036,
+          323037
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cafes"
+      },
+      {
+        "name": "Bakeries"
+      },
+      {
+        "name": "Milk Tea"
+      }
+    ],
+    "fees": [],
+    "store_order_limits": [
+      {
+        "preparation_type_id": 4,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      },
+      {
+        "preparation_type_id": 0,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      }
+    ],
+    "store_scaling_delivery_attributes": {
+      "mile_threshold": 0,
+      "minute_increment": 1,
+      "mile_interval": 0.25
+    },
+    "scaling_prep_attributes": {
+      "dollar_interval": 20,
+      "dollar_threshold": 65,
+      "duration_interval": 5,
+      "item_interval": 5,
+      "item_threshold": 9,
+      "store_scaling_max": 45
+    },
+    "additional_prep_duration": 5,
+    "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1660/thumb_o-2.jpg",
+    "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1660/thumb_ovo_cafe.png",
+    "delivery_prep_bump": 0,
+    "max_delivery_time": 22,
+    "min_delivery_time": 7,
+    "tips_allowed": true,
+    "store_message": "OrderAhead now delivers! Read our FAQ online to learn more.",
+    "text_for_share_email": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_sms": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_twitter": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "open_now?": false,
+    "busy_now?": false,
+    "not_accepting_orders": true,
+    "store_hours": [
+      {
+        "custom_date": null,
+        "day_name_short": "Fri",
+        "menu_set": -1,
+        "time_open": 660,
+        "time_close": 1230,
+        "display_name": "Lunch & Dinner",
+        "relevant_menu_ids": [
+          6207,
+          6205
+        ]
+      }
+    ],
+    "hours_today": "Open 11:00 AM - 8:30 PM",
+    "store_time": "2015-03-06T09:57:59-08:00",
+    "orderable": false,
+    "menu_categories": [
+      {
+        "id": 33728,
+        "name": "Breakfast",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Scrambled egg croissant.",
+            "id": 291678,
+            "is_taxed": true,
+            "name": "Scrambled Egg Croissant",
+            "preparation_time": 1,
+            "price": 405,
+            "option_set_ids": [
+              47586,
+              47585
+            ]
+          },
+          {
+            "description": "With your choice of bacon or ham.",
+            "id": 291679,
+            "is_taxed": true,
+            "name": "Cheese Toast with Tomato",
+            "preparation_time": 1,
+            "price": 490,
+            "option_set_ids": [
+              47587,
+              47585
+            ]
+          },
+          {
+            "description": "Mushrooms, onions, tomato and ham omelet with toast.",
+            "id": 291680,
+            "is_taxed": true,
+            "name": "Mushrooms, Onions, Tomato & Ham Omelet with Toast",
+            "preparation_time": 1,
+            "price": 515,
+            "option_set_ids": [
+              47585
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33730,
+        "name": "Ovo Cafe Meals",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291685,
+            "is_taxed": true,
+            "name": "Grilled Chicken",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291686,
+            "is_taxed": true,
+            "name": "Grilled Pork Chop",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291687,
+            "is_taxed": true,
+            "name": "Curry Beef Brisket",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291688,
+            "is_taxed": true,
+            "name": "Fish Cutlet",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291689,
+            "is_taxed": true,
+            "name": "Chicken Cutlet",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291690,
+            "is_taxed": true,
+            "name": "Pork Cutlet",
+            "preparation_time": 1,
+            "price": 975,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          },
+          {
+            "description": "Served with your choice of side and sauce.",
+            "id": 291691,
+            "is_taxed": true,
+            "name": "Curry Veggie Mixed",
+            "preparation_time": 1,
+            "price": 810,
+            "option_set_ids": [
+              47590,
+              47591,
+              53353,
+              47592
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33731,
+        "name": "Soups",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291692,
+            "is_taxed": true,
+            "name": "HK Style Borscht",
+            "preparation_time": 1,
+            "price": 405,
+            "option_set_ids": [
+              47593
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33732,
+        "name": "Snacks",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Six chicken bites served with sauce.",
+            "id": 291694,
+            "is_taxed": true,
+            "name": "Chicken Bites",
+            "preparation_time": 1,
+            "price": 570,
+            "option_set_ids": []
+          },
+          {
+            "description": "Six fish fries served with sauce.",
+            "id": 291695,
+            "is_taxed": true,
+            "name": "Fish Fries.",
+            "preparation_time": 1,
+            "price": 625,
+            "option_set_ids": []
+          },
+          {
+            "description": "Three pieces of siu mai.",
+            "id": 291696,
+            "is_taxed": true,
+            "name": "Siu Mai",
+            "preparation_time": 1,
+            "price": 325,
+            "option_set_ids": []
+          },
+          {
+            "description": "Four fish balls.",
+            "id": 291697,
+            "is_taxed": true,
+            "name": "Fish Balls",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": []
+          },
+          {
+            "description": "Dipping sauce.",
+            "id": 291698,
+            "is_taxed": true,
+            "name": "Dipping Sauce",
+            "preparation_time": 1,
+            "price": 190,
+            "option_set_ids": []
+          }
+        ]
+      },
+      {
+        "id": 33733,
+        "name": "Tarts",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Signature flaky egg tart.",
+            "id": 291699,
+            "is_taxed": true,
+            "name": "Signature Flaky Egg Tart",
+            "preparation_time": 1,
+            "price": 135,
+            "option_set_ids": []
+          },
+          {
+            "description": "Butter egg tart.",
+            "id": 291700,
+            "is_taxed": true,
+            "name": "Butter Egg Tart",
+            "preparation_time": 1,
+            "price": 135,
+            "option_set_ids": []
+          },
+          {
+            "description": "Coconut tart.",
+            "id": 291701,
+            "is_taxed": true,
+            "name": "Coconut Tart",
+            "preparation_time": 1,
+            "price": 220,
+            "option_set_ids": []
+          },
+          {
+            "description": "Pecan tart.",
+            "id": 291702,
+            "is_taxed": true,
+            "name": "Pecan Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Bib pork tart.",
+            "id": 291703,
+            "is_taxed": true,
+            "name": "BBQ Pork Tart",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": []
+          },
+          {
+            "description": "Apple tart.",
+            "id": 291704,
+            "is_taxed": true,
+            "name": "Apple Tart",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": []
+          },
+          {
+            "description": "Mango tart.",
+            "id": 291705,
+            "is_taxed": true,
+            "name": "Mango Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Lychee tart.",
+            "id": 291706,
+            "is_taxed": true,
+            "name": "Lychee Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Strawberry tart.",
+            "id": 291707,
+            "is_taxed": true,
+            "name": "Strawberry Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Blueberry tart.",
+            "id": 291708,
+            "is_taxed": true,
+            "name": "Blueberry Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Chocolate tart.",
+            "id": 291709,
+            "is_taxed": true,
+            "name": "Chocolate Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Taro tart.",
+            "id": 291710,
+            "is_taxed": true,
+            "name": "Taro Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Red bean tart.",
+            "id": 291711,
+            "is_taxed": true,
+            "name": "Red Bean Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Green tea tart.",
+            "id": 291712,
+            "is_taxed": true,
+            "name": "Green Tea Tart",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          }
+        ]
+      },
+      {
+        "id": 33734,
+        "name": "Coffee",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Hong Kong style iced coffee.",
+            "id": 291713,
+            "is_taxed": true,
+            "name": "Hong Kong Style Iced Coffee",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291714,
+            "is_taxed": true,
+            "name": "Hot Coffee",
+            "preparation_time": 1,
+            "price": 165,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291715,
+            "is_taxed": true,
+            "name": "Iced Coffee",
+            "preparation_time": 1,
+            "price": 200,
+            "option_set_ids": [
+              47595
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291716,
+            "is_taxed": true,
+            "name": "Hot Yin Yang",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291717,
+            "is_taxed": true,
+            "name": "Iced Yin Yang",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33735,
+        "name": "Teas",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291718,
+            "is_taxed": true,
+            "name": "Hot Milk Tea",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291719,
+            "is_taxed": true,
+            "name": "Iced Milk Tea",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Hot lemon tea.",
+            "id": 291720,
+            "is_taxed": true,
+            "name": "Hot Lemon Tea",
+            "preparation_time": 1,
+            "price": 245,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291721,
+            "is_taxed": true,
+            "name": "Iced Lemon Tea",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291722,
+            "is_taxed": true,
+            "name": "Iced Mango Mint Tea",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33736,
+        "name": "Espressos",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291723,
+            "is_taxed": true,
+            "name": "Hot Sea Salt Latte",
+            "preparation_time": 1,
+            "price": 490,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291724,
+            "is_taxed": true,
+            "name": "Hot Latte",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced latte (medium).",
+            "id": 291725,
+            "is_taxed": true,
+            "name": "Iced Latte",
+            "preparation_time": 1,
+            "price": 380,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291726,
+            "is_taxed": true,
+            "name": "Hot Mocha",
+            "preparation_time": 1,
+            "price": 435,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced mocha (medium).",
+            "id": 291727,
+            "is_taxed": true,
+            "name": "Iced Mocha",
+            "preparation_time": 1,
+            "price": 490,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291728,
+            "is_taxed": true,
+            "name": "Hot Sweet Creamy Latte",
+            "preparation_time": 1,
+            "price": 460,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Iced sweet creamy latte.",
+            "id": 291729,
+            "is_taxed": true,
+            "name": "Iced Sweet Creamy Latte",
+            "preparation_time": 1,
+            "price": 515,
+            "option_set_ids": []
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291730,
+            "is_taxed": true,
+            "name": "Hot Expresso Milk Tea",
+            "preparation_time": 1,
+            "price": 380,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33737,
+        "name": "Specialties",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291731,
+            "is_taxed": true,
+            "name": "Hot Ovaltine",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291732,
+            "is_taxed": true,
+            "name": "Iced Ovaltine",
+            "preparation_time": 1,
+            "price": 300,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291733,
+            "is_taxed": true,
+            "name": "Iced Black Currant Refresher",
+            "preparation_time": 1,
+            "price": 405,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291734,
+            "is_taxed": true,
+            "name": "Iced Grapefruit Pineapple Soda",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291735,
+            "is_taxed": true,
+            "name": "Iced Arnold Palmer",
+            "preparation_time": 1,
+            "price": 270,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33738,
+        "name": "Smoothies",
+        "store_id": 1660,
+        "menu_items": [
+          {
+            "description": "Your choice of size.",
+            "id": 291736,
+            "is_taxed": true,
+            "name": "Ovaltine",
+            "preparation_time": 1,
+            "price": 460,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291737,
+            "is_taxed": true,
+            "name": "Kumquat Lemon",
+            "preparation_time": 1,
+            "price": 460,
+            "option_set_ids": [
+              47594
+            ]
+          },
+          {
+            "description": "Your choice of size.",
+            "id": 291738,
+            "is_taxed": true,
+            "name": "Black Currant Lemon",
+            "preparation_time": 1,
+            "price": 490,
+            "option_set_ids": [
+              47594
+            ]
+          }
+        ]
+      }
+    ],
+    "default_preparation_type_id": 4,
+    "preparation_type": 4,
+    "store_preparation_type_fees": [
+      {
+        "preparation_type_id": 4,
+        "name": "Delivery Fee",
+        "fee_type_id": 0,
+        "item_count": null,
+        "amount": 600,
+        "to_merchant": false
+      }
+    ]
+  },
+  "default_preparation_type_id": 4,
+  "-1": {
+    "default_prep_duration": 20,
+    "address": "171 2nd Street",
+    "id": 1660,
+    "slug": "ovo-cafe--san-francisco-ca",
+    "latitude": "37.787247",
+    "longitude": "-122.398636",
+    "name": "Ovo Cafe",
+    "order_limit": 10000,
+    "order_item_limit": null,
+    "phone_number": "415-908-3888",
+    "pickup_instructions": "Please go to the pickup area and ask for your OrderAhead order by name.",
+    "position": 1963,
+    "sales_tax_percentage": "8.75",
+    "supported_preparation_type": 1,
+    "supported_payment_type": 0,
+    "supports_custom_ready_time": true,
+    "bio": "",
+    "website_url": "http://ovocafe.com/",
+    "yelp_url": "http://www.yelp.com/biz/ovo-cafe-san-francisco",
+    "facebook_url": "https://www.facebook.com/cafeovo",
+    "twitter_handle": "ovocafe",
+    "feedback_email": "",
+    "time_zone_abbreviation": "PST",
+    "allows_free_delivery": true,
+    "delivery_market_name": "San Francisco",
+    "city_slug": "san-francisco-ca",
+    "week_store_hours": {
+      "0": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ],
+      "4": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1230
+        }
+      ],
+      "-1": [
+        {
+          "custom_date": null,
+          "day_name_short": "Fri",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Mon",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Thu",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Tue",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Wed",
+          "menu_set": -1,
+          "time_open": 480,
+          "time_close": 1230
+        }
+      ]
+    },
+    "location": "San Francisco, CA",
+    "time_zone_offset": -480,
+    "zip_code": "94105",
+    "coming_soon_at": null,
+    "coming_soon?": false,
+    "supported_preparation_types": [
+      4,
+      0
+    ],
+    "store_delivery_zones": [
+      {
+        "latitude": "37.787247",
+        "longitude": "-122.398636",
+        "radius": "5.0",
+        "latitude_2": null,
+        "longitude_2": null,
+        "polygon": null,
+        "description": null,
+        "latitude2": null,
+        "longitude2": null
+      }
+    ],
+    "all_menu_item_options": [
+      {
+        "id": 323015,
+        "is_taxed": true,
+        "name": "Butter Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323016,
+        "is_taxed": true,
+        "name": "Flaky Egg Tart",
+        "price": 100
+      },
+      {
+        "id": 323017,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 250
+      },
+      {
+        "id": 323018,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 50
+      },
+      {
+        "id": 323019,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 125
+      },
+      {
+        "id": 323020,
+        "is_taxed": true,
+        "name": "Bacon",
+        "price": 0
+      },
+      {
+        "id": 323021,
+        "is_taxed": true,
+        "name": "Ham",
+        "price": 0
+      },
+      {
+        "id": 323022,
+        "is_taxed": true,
+        "name": "Chicken",
+        "price": 0
+      },
+      {
+        "id": 323023,
+        "is_taxed": true,
+        "name": "Beef",
+        "price": 75
+      },
+      {
+        "id": 323024,
+        "is_taxed": true,
+        "name": "Butter",
+        "price": 0
+      },
+      {
+        "id": 323025,
+        "is_taxed": true,
+        "name": "Cheese",
+        "price": 0
+      },
+      {
+        "id": 323026,
+        "is_taxed": true,
+        "name": "Ham & Egg",
+        "price": 40
+      },
+      {
+        "id": 323027,
+        "is_taxed": true,
+        "name": "Brown Rice",
+        "price": 0
+      },
+      {
+        "id": 323028,
+        "is_taxed": true,
+        "name": "Fried Rice",
+        "price": 0
+      },
+      {
+        "id": 323029,
+        "is_taxed": true,
+        "name": "White Rice",
+        "price": 0
+      },
+      {
+        "id": 323030,
+        "is_taxed": true,
+        "name": "Salad",
+        "price": 0
+      },
+      {
+        "id": 323031,
+        "is_taxed": true,
+        "name": "Spaghetti",
+        "price": 0
+      },
+      {
+        "id": 323032,
+        "is_taxed": true,
+        "name": "Curryous George",
+        "price": 0
+      },
+      {
+        "id": 323033,
+        "is_taxed": true,
+        "name": "Dreamy Creamy",
+        "price": 0
+      },
+      {
+        "id": 323034,
+        "is_taxed": true,
+        "name": "Firecrackin Pepper",
+        "price": 0
+      },
+      {
+        "id": 323035,
+        "is_taxed": true,
+        "name": "Tang-mato",
+        "price": 0
+      },
+      {
+        "id": 323036,
+        "is_taxed": true,
+        "name": "Tart & Milk Tea",
+        "price": 350
+      },
+      {
+        "id": 323037,
+        "is_taxed": true,
+        "name": "Tart & Lemon Tea",
+        "price": 350
+      },
+      {
+        "id": 323038,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323039,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 50
+      },
+      {
+        "id": 323040,
+        "is_taxed": true,
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "id": 323041,
+        "is_taxed": true,
+        "name": "Medium",
+        "price": 25
+      },
+      {
+        "id": 323042,
+        "is_taxed": true,
+        "name": "Hot",
+        "price": 0
+      },
+      {
+        "id": 323043,
+        "is_taxed": true,
+        "name": "Iced",
+        "price": 30
+      },
+      {
+        "id": 348867,
+        "is_taxed": true,
+        "name": "Fried Egg",
+        "price": 100
+      }
+    ],
+    "option_sets": [
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47593,
+        "menu_item_option_ids": [
+          323038,
+          323039
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Size Choices",
+        "price_per_additional": null,
+        "id": 47594,
+        "menu_item_option_ids": [
+          323040,
+          323041
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Meat Choices",
+        "price_per_additional": null,
+        "id": 47587,
+        "menu_item_option_ids": [
+          323020,
+          323021
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Protein Choices",
+        "price_per_additional": null,
+        "id": 47589,
+        "menu_item_option_ids": [
+          323024,
+          323025,
+          323026
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Side Choices",
+        "price_per_additional": null,
+        "id": 47590,
+        "menu_item_option_ids": [
+          323027,
+          323028,
+          323029,
+          323030,
+          323031
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Sauce Choices",
+        "price_per_additional": null,
+        "id": 47591,
+        "menu_item_option_ids": [
+          323032,
+          323033,
+          323034,
+          323035
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Noodles Choices",
+        "price_per_additional": null,
+        "id": 47588,
+        "menu_item_option_ids": [
+          323022,
+          323023
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Options",
+        "price_per_additional": null,
+        "id": 47586,
+        "menu_item_option_ids": [
+          323018,
+          323019
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 47585,
+        "menu_item_option_ids": [
+          323015,
+          323016,
+          323017
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 1,
+        "name": "Hot or Iced?",
+        "price_per_additional": null,
+        "id": 47595,
+        "menu_item_option_ids": [
+          323042,
+          323043
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": null,
+        "min_selections": 0,
+        "name": "Extras",
+        "price_per_additional": null,
+        "id": 53353,
+        "menu_item_option_ids": [
+          348867
+        ]
+      },
+      {
+        "included_count": 0,
+        "is_taxed": true,
+        "max_selections": 1,
+        "min_selections": 0,
+        "name": "Make It A Combo",
+        "price_per_additional": null,
+        "id": 47592,
+        "menu_item_option_ids": [
+          323036,
+          323037
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cafes"
+      },
+      {
+        "name": "Bakeries"
+      },
+      {
+        "name": "Milk Tea"
+      }
+    ],
+    "fees": [],
+    "store_order_limits": [
+      {
+        "preparation_type_id": 4,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      },
+      {
+        "preparation_type_id": 0,
+        "order_dollar_limit": 10000,
+        "order_dollar_minimum": null,
+        "order_item_limit": null,
+        "order_item_minimum": null
+      }
+    ],
+    "store_scaling_delivery_attributes": {
+      "mile_threshold": 0,
+      "minute_increment": 1,
+      "mile_interval": 0.25
+    },
+    "scaling_prep_attributes": {
+      "dollar_interval": 20,
+      "dollar_threshold": 65,
+      "duration_interval": 5,
+      "item_interval": 5,
+      "item_threshold": 9,
+      "store_scaling_max": 45
+    },
+    "additional_prep_duration": 5,
+    "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1660/thumb_o-2.jpg",
+    "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1660/thumb_ovo_cafe.png",
+    "delivery_prep_bump": 0,
+    "max_delivery_time": 22,
+    "min_delivery_time": 7,
+    "tips_allowed": true,
+    "store_message": null,
+    "text_for_share_email": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_sms": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "text_for_share_twitter": "Check out Ovo Cafe on @orderahead. www.orderaheadapp.com/places/ovo-cafe--san-francisco-ca",
+    "open_now?": true,
+    "busy_now?": false,
+    "not_accepting_orders": true,
+    "store_hours": [
+      {
+        "custom_date": null,
+        "day_name_short": "Fri",
+        "menu_set": -1,
+        "time_open": 480,
+        "time_close": 1230,
+        "display_name": "All Day",
+        "relevant_menu_ids": [
+          3980,
+          3982
+        ]
+      }
+    ],
+    "hours_today": "Open 8:00 AM - 8:30 PM",
+    "store_time": "2015-03-06T09:57:59-08:00",
+    "orderable": false,
+    "menu_categories": [],
+    "default_preparation_type_id": 4,
+    "preparation_type": -1,
+    "store_preparation_type_fees": [
+      {
+        "preparation_type_id": 4,
+        "name": "Delivery Fee",
+        "fee_type_id": 0,
+        "item_count": null,
+        "amount": 600,
+        "to_merchant": false
+      }
+    ]
+  }
+}
