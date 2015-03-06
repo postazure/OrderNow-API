@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.1.8'
 gem 'pg'
 
@@ -14,7 +13,6 @@ end
 
 #api
 gem 'rack-cors', '~> 0.3.1'
-
 
 #front-end
 gem 'sass-rails', '~> 4.0.3'
