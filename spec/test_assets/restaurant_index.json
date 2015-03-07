@@ -1,0 +1,5529 @@
+{
+  "per_page": 60,
+  "stores": [
+    {
+      "default_prep_duration": 20,
+      "address": "171 2nd Street",
+      "id": 1660,
+      "name": "Ovo Cafe",
+      "order_limit": 10000,
+      "order_item_limit": null,
+      "phone_number": "415-908-3888",
+      "position": 1963,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://ovocafe.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1660/thumb_o-2.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1660/thumb_ovo_cafe.png",
+      "slug": "ovo-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 5:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.787247",
+      "longitude": "-122.398636",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Cafes"
+        },
+        {
+          "name": "Bakeries"
+        },
+        {
+          "name": "Milk Tea"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.787247",
+          "longitude": "-122.398636",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 10000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 10000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            3980,
+            3982
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.07466454074222688
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "149 2nd Street",
+      "id": 1988,
+      "name": "Osha Thai Restaurant (2nd St.)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2291,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.oshathai.com/3/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1988/thumb_o-2.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1988/thumb_osha.png",
+      "slug": "osha-thai-restaurant-2nd-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7874867",
+      "longitude": "-122.3987943",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Thai"
+        },
+        {
+          "name": "Vegetarian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7874867",
+          "longitude": "-122.3987943",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1320,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            5599
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.07465852988907641
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "100 1st Street",
+      "id": 1516,
+      "name": "Sausalito Cafe (First St.)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-222-9922",
+      "position": 1837,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://sausalito-cafe.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1516/thumb_timthumb-3.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1516/thumb_sausalito_cafe.png",
+      "slug": "sausalito-cafe-first-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7894223",
+      "longitude": "-122.3976455",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Cafe"
+        },
+        {
+          "name": "Coffee & Tea"
+        },
+        {
+          "name": "Mediterranean"
+        },
+        {
+          "name": "Breakfast"
+        },
+        {
+          "name": "Wraps"
+        },
+        {
+          "name": "Sandwiches"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7894223",
+          "longitude": "-122.3976455",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.10796718004994717
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "126 New Montgomery Street",
+      "id": 2028,
+      "name": "Chipotle Mexican Grill (New Montgomery & Mission)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2331,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.chipotle.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2028/thumb_Chipotle_featured_image_8.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2028/thumb_chipotle.png",
+      "slug": "chipotle-mexican-grill-new-montgomery-mission--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7870657",
+      "longitude": "-122.4002773",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Mexican"
+        },
+        {
+          "name": "Fast Food"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7870657",
+          "longitude": "-122.4002773",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1320,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            8405
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.1606995821531831
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "118 New Montgomery Street",
+      "id": 1528,
+      "name": "Ayola (Montgomery St.)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-348-0808",
+      "position": 1849,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1528/thumb_falaf.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1528/thumb_ayola.png",
+      "slug": "ayola-montgomery-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 3:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.787094",
+      "longitude": "-122.4003023",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Greek"
+        },
+        {
+          "name": "Shawarma"
+        },
+        {
+          "name": "Gyros"
+        },
+        {
+          "name": "Vegetarian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.787094",
+          "longitude": "-122.4003023",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 900,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            2743
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.16132789324651747
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "49 Stevenson St",
+      "id": 4549,
+      "name": "Yank Sing (Stevenson St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4088,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": null,
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4549/thumb_SF20_Yank_Sing.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4549/thumb_SF18_Yank_Sing.png",
+      "slug": "yank-sing-stevenson-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 4:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7897173",
+      "longitude": "-122.3994262",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Dim Sum"
+        },
+        {
+          "name": "Cantonese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7897173",
+          "longitude": "-122.3994262",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": 0,
+          "order_item_limit": null,
+          "order_item_minimum": 0
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 960,
+          "display_name": "Lunch",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.16531086500558928
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "303 2nd Street",
+      "id": 2385,
+      "name": "Urban Picnic (SoMa)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-371-1900",
+      "position": 2688,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.urbanpicniceatery.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2385/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2385/thumb_urban_picnic.png",
+      "slug": "urban-picnic-soma--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7857659",
+      "longitude": "-122.3958604",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Vietnamese"
+        },
+        {
+          "name": "Soup"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Breakfast"
+        },
+        {
+          "name": "Lunch"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7857659",
+          "longitude": "-122.3958604",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "SF Bag Surcharge",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 10,
+          "to_merchant": true
+        },
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.17070102437449966
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "54 2nd Street",
+      "id": 457,
+      "name": "Sunrise Deli & Cafe (2nd St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-495-9999",
+      "position": 876,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.sunrisedeli.net",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/457/thumb_featured_sunrisedeli.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/457/thumb_sunrise_deli_logo.png",
+      "slug": "sunrise-deli-cafe-2nd-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7884926",
+      "longitude": "-122.4006588",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Breakfast"
+        },
+        {
+          "name": "Coffee"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7884926",
+          "longitude": "-122.4006588",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.17720591581128148
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "215 Fremont Street",
+      "id": 1371,
+      "name": "Prima Cafe",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-222-9918",
+      "position": 1731,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://primacafesf.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1371/thumb_l.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1371/thumb_prima_cafe.png",
+      "slug": "prima-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7890914",
+      "longitude": "-122.394642",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Coffee & Tea"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Juice Bars & Smoothies"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7890914",
+          "longitude": "-122.394642",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 0,
+          "time_close": 0,
+          "display_name": "Hours",
+          "relevant_menu_ids": [
+            2277
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.17824545988423182
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "660 Howard Street",
+      "id": 336,
+      "name": "Fang",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-777-8568",
+      "position": 759,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.fangrestaurant.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/336/thumb_336_fang.png",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/336/thumb_fang_logo.png",
+      "slug": "fang--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open Noon - 10:30 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.785811",
+      "longitude": "-122.3997305",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Chinese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.785811",
+          "longitude": "-122.3997305",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 720,
+          "time_close": 1350,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            546,
+            547
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.1864693685658194
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "50 Fremont Street",
+      "id": 260,
+      "name": "Cello Kebob & Pizza",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-357-1122",
+      "position": 685,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/260/thumb_375613_544272145608160_1069161364_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/260/thumb_cello.png",
+      "slug": "cello-kebob-pizza--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.79058390000001",
+      "longitude": "-122.3970674",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Pizza"
+        },
+        {
+          "name": "Middle Eastern"
+        },
+        {
+          "name": "Mediterranean"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.79058390000001",
+          "longitude": "-122.3970674",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.18954815362180044
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "30 Fremont Street",
+      "id": 1914,
+      "name": "Tender Greens (Downtown SF)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2217,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1914/thumb_o-1.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1914/thumb_tender_greens.png",
+      "slug": "tender-greens-downtown-sf--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7907762",
+      "longitude": "-122.397655",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Salad"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7907762",
+          "longitude": "-122.397655",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.20141877462034308
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "28 2nd Street",
+      "id": 268,
+      "name": "Mehfil (2nd & Market)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-896-9000",
+      "position": 693,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://mehfilindian.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/268/thumb_featured_mehfil_2.png",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/268/thumb_mehfil_logo.png",
+      "slug": "mehfil-2nd-market--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 5:30 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7888838",
+      "longitude": "-122.4011407",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Indian"
+        },
+        {
+          "name": "Indian"
+        },
+        {
+          "name": "Indian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7888838",
+          "longitude": "-122.4011407",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1050,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            457
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.21027630201597985
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "455 Market Street Ste 160",
+      "id": 2513,
+      "name": "Prime Dip (Market St.)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-357-9780",
+      "position": 2816,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.primedip.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2513/thumb_480705_397398173620946_758637100_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2513/thumb_prime_dip_sandwiches.png",
+      "slug": "prime-dip-market-st--san-francisco-ca--2",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7908101",
+      "longitude": "-122.3985221",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "American (New)"
+        },
+        {
+          "name": "Fast Food"
+        },
+        {
+          "name": "Lobster"
+        },
+        {
+          "name": "Surf And Turf"
+        },
+        {
+          "name": "Prime Rib"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7908101",
+          "longitude": "-122.3985221",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.21093888663909888
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "37 New Montgomery Street",
+      "id": 2821,
+      "name": "The Sentinel",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-284-9960",
+      "position": 3058,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2821/thumb_qRadOCwqeT8y20CQbcit4kxV6BFy6KyV4hUY2dfD2lEUhbQc4ykaXw9mghDvaYef",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2821/thumb_the_sentinel.png",
+      "slug": "the-sentinel--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7883111",
+      "longitude": "-122.4015189",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7883111",
+          "longitude": "-122.4015189",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.22092969363096923
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "201 Mission Street",
+      "id": 190,
+      "name": "Bistro Burger (Mission St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-348-8788",
+      "position": 615,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.bistroburger.net/locations/mission-street-othermenu-49.html",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/190/thumb_featured_bistroburger_mission.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/190/thumb_bistro_burger_logo.gif",
+      "slug": "bistro-burger-mission-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.791174",
+      "longitude": "-122.395423",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        },
+        {
+          "name": "American"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.791174",
+          "longitude": "-122.395423",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.25563212099579424
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "201 Mission Street",
+      "id": 191,
+      "name": "201 Mission Taqueria",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-348-8788",
+      "position": 616,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://201missiontaqueria.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/191/thumb_mission_taqueria.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/191/thumb_201_mission.png",
+      "slug": "201-mission-taqueria--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.791174",
+      "longitude": "-122.395423",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Mexican"
+        },
+        {
+          "name": "Tacos"
+        },
+        {
+          "name": "Taqueria"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.791174",
+          "longitude": "-122.395423",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.25563212099579424
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "388 Market Street, Suite 107",
+      "id": 893,
+      "name": "Soup Junkie",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-291-0686",
+      "position": 1273,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.soupjunkiesf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/893/thumb_Soup-Junkie-Bun-Rieu.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/893/thumb_soup_junkie.png",
+      "slug": "soup-junkie--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.79180849999999",
+      "longitude": "-122.3982578",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Vietnamese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.79180849999999",
+          "longitude": "-122.3982578",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.2756131535242271
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "41 Montgomery Street",
+      "id": 112,
+      "name": "Bamboo Asia",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-772-9134",
+      "position": 537,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.eatatbamboo.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/112/thumb_eltpRdSCTWkxHRSrQ09twewNghFNy_XDLnBnqEXTa5M_Fotor.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/112/thumb_bamboo_asia.png",
+      "slug": "bamboo-asia--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7897533",
+      "longitude": "-122.40207",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Asian Fusion"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7897533",
+          "longitude": "-122.40207",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.28102741893886896
+    },
+    {
+      "default_prep_duration": 30,
+      "address": "1 Front Street",
+      "id": 1876,
+      "name": "Front Door Cafe",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-989-3244",
+      "position": 2179,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1876/thumb_Front_Door_Cafe_Featured_Image.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1876/thumb_imgres.jpg",
+      "slug": "front-door-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7918286",
+      "longitude": "-122.3987504",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Breakfast"
+        },
+        {
+          "name": "Burrito"
+        },
+        {
+          "name": "Eggs"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7918286",
+          "longitude": "-122.3987504",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 15,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.2821943825106546
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "132 Bush Street",
+      "id": 358,
+      "name": "Sushi Umi",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-834-9898",
+      "position": 781,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.sushiumisf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/358/thumb_358_Sushi_20Umi.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/358/thumb_sushi_umi.png",
+      "slug": "sushi-umi--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7913761",
+      "longitude": "-122.4001547",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Sushi Bars"
+        },
+        {
+          "name": "Japanese"
+        },
+        {
+          "name": "Sushi"
+        },
+        {
+          "name": "Sushi"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7913761",
+          "longitude": "-122.4001547",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.2823518900710874
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "337 3rd St",
+      "id": 3098,
+      "name": "Pazzia Restaurant & Pizzeria",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-512-1693",
+      "position": 3284,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/3098/thumb_pazzia_feature.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/3098/thumb_Pazzia.png",
+      "slug": "pazzia-restaurant-pizzeria--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 5:30 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.78343530000001",
+      "longitude": "-122.3979942",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Italian"
+        },
+        {
+          "name": "Pizza"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.78343530000001",
+          "longitude": "-122.3979942",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1050,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            12024
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.30706603222648204
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "98 Battery Street",
+      "id": 1122,
+      "name": "Locali Mediterranean",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-399-9991",
+      "position": 1501,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://localimediterranean.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1122/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1122/thumb_locali_mediterranean.png",
+      "slug": "locali-mediterranean--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.792085",
+      "longitude": "-122.399368",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Greek"
+        },
+        {
+          "name": "Mediterranean"
+        },
+        {
+          "name": "Halal"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.792085",
+          "longitude": "-122.399368",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3087881078884072
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "388 Market Street",
+      "id": 421,
+      "name": "Miss Tomato Sandwich Shop (Market St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-397-0100",
+      "position": 841,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.misstomatos.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/421/thumb_421_miss_20tomatoes.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/421/thumb_miss_tomato.png",
+      "slug": "miss-tomato-sandwich-shop-market-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7923199",
+      "longitude": "-122.3981526",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Bagels"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7923199",
+          "longitude": "-122.3981526",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.30990412615585394
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "77 Battery Street",
+      "id": 1231,
+      "name": "Tokyo Express (Battery St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-362-2222",
+      "position": 1593,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.sftokyoexpress.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1231/thumb_o-1.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1231/thumb_tokyo_express.png",
+      "slug": "tokyo-express-battery-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.791941",
+      "longitude": "-122.399989",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Sushi Bars"
+        },
+        {
+          "name": "Sushi"
+        },
+        {
+          "name": "Japanese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.791941",
+          "longitude": "-122.399989",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.31251286489384883
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "320 3rd Street",
+      "id": 184,
+      "name": "Cafe Chaat",
+      "order_limit": 20000,
+      "order_item_limit": null,
+      "phone_number": "415-979-9946",
+      "position": 609,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://cafechaatsf.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/184/thumb_lg_64133_0.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/184/thumb_cafe_chaat.png",
+      "slug": "cafe-chaat--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 11:30 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.783421",
+      "longitude": "-122.3986847",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Indian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.783421",
+          "longitude": "-122.3986847",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1410,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            306
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.31352738929435486
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "126 Sutter Street",
+      "id": 993,
+      "name": "Shorty Goldstein's",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-986-2676",
+      "position": 1373,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.shortygoldsteins.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/993/thumb_rachel_shorty-111_Rachel.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/993/thumb_shortyGoldstein_s_Logo.png",
+      "slug": "shorty-goldsteins--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7901344",
+      "longitude": "-122.4028314",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "American"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7901344",
+          "longitude": "-122.4028314",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3301000759820119
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "101 California Street",
+      "id": 2359,
+      "name": "The Plant Cafe Organic (Downtown)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2662,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.theplantcafe.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2359/thumb_the_plant_cafe_featured_image_4.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2359/thumb_the_plant_cafe.png",
+      "slug": "the-plant-cafe-organic-downtown--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7927379",
+      "longitude": "-122.3981096",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Vegetarian"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Salad"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7927379",
+          "longitude": "-122.3981096",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.33838243776872406
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "301 Pine Street",
+      "id": 164,
+      "name": "Fuel Cafe",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-398-0774",
+      "position": 589,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://fuelcafebayarea.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/164/thumb_1656151_10152036812287917_242975208_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/164/thumb_fuel.png",
+      "slug": "fuel-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 9:00 AM - 2:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7919254",
+      "longitude": "-122.4010417",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Cafe"
+        },
+        {
+          "name": "Healthy"
+        },
+        {
+          "name": "Juice Bars & Smoothies"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7919254",
+          "longitude": "-122.4010417",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 540,
+          "time_close": 840,
+          "display_name": "Brunch",
+          "relevant_menu_ids": [
+            274
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.34044917061604824
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "192 Sansome Street",
+      "id": 892,
+      "name": "JapaCurry Truck",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 1272,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.japacurry.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/892/thumb_JapaCurry.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/892/thumb_japacurry.png",
+      "slug": "japacurry-truck--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7920696",
+      "longitude": "-122.4009491",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Food Truck"
+        },
+        {
+          "name": "Japanese"
+        },
+        {
+          "name": "Curry"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7920696",
+          "longitude": "-122.4009491",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3459402518390315
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "160 Spear Street",
+      "id": 1235,
+      "name": "Tokyo Express (Spear St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-348-1732",
+      "position": 1596,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "sftokyoexpress.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1235/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1235/thumb_tokyo_express.png",
+      "slug": "tokyo-express-spear-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7918886",
+      "longitude": "-122.3935037",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Japanese"
+        },
+        {
+          "name": "Sushi"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7918886",
+          "longitude": "-122.3935037",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3539380519624525
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "721 Market St",
+      "id": 4550,
+      "name": "Super Duper Burgers (Market & 3rd)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4089,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4550/thumb_SF25_Super_Duper_Burgers.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4550/thumb_SF46_Super_Duper_Burgers.png",
+      "slug": "super-duper-burgers-market-3rd--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.786856",
+      "longitude": "-122.403905",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.786856",
+          "longitude": "-122.403905",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1320,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.35591347666996953
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "125 Kearny Street",
+      "id": 743,
+      "name": "Urban Picnic (FiDi)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-433-1233",
+      "position": 1128,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.urbanpicniceatery.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/743/thumb_o_Fotor.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/743/thumb_urban_picnic.png",
+      "slug": "urban-picnic-fidi--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7892762",
+      "longitude": "-122.4037896",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Vietnamese"
+        },
+        {
+          "name": "Vegetarian"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Gluten Free"
+        },
+        {
+          "name": "Dairy Free"
+        },
+        {
+          "name": "Vegan"
+        },
+        {
+          "name": "Superfood"
+        },
+        {
+          "name": "Organic"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7892762",
+          "longitude": "-122.4037896",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 15000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 15000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "SF Bag Surcharge",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 10,
+          "to_merchant": true
+        },
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.35637050491339334
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "199 Sutter Street",
+      "id": 1950,
+      "name": "Bread & Cocoa",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2253,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.breadandcocoa.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1950/thumb_Bread_and_Cocoa_Featured_Image.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1950/thumb_bread_and_cocoa.png",
+      "slug": "bread-cocoa--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 5:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7897513",
+      "longitude": "-122.4036848",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Coffee & Tea"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7897513",
+          "longitude": "-122.4036848",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            5684,
+            5683
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.3613814447807122
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "333 Bush Street",
+      "id": 196,
+      "name": "Bistro Burger (Bush St)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-434-3754",
+      "position": 621,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.bistroburger.net/locations/bush-street-othermenu-50.html",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/196/thumb_featured_bistroburger_bush.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/196/thumb_bistro_burger_logo.gif",
+      "slug": "bistro-burger-bush-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7906661",
+      "longitude": "-122.403257",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        },
+        {
+          "name": "American"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7906661",
+          "longitude": "-122.403257",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.36862266581113434
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "121 Spear St",
+      "id": 3101,
+      "name": "Theo's CheeseSteak Shop",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-977-0266",
+      "position": 3287,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/3101/thumb_mqs6oYOXORiPxK6X1FRlxImVwZVeUCEndVMrze0lXjLlnFzfpmBibbcDDtVKX0Se",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/3101/thumb_3101_Theo_s_Cheese_Steak_Shop.png",
+      "slug": "theos-cheesesteak-shop--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 15,
+      "max_delivery_time": 30,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7918989",
+      "longitude": "-122.3928335",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Cheesesteaks"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7918989",
+          "longitude": "-122.3928335",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3781911166888489
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "300 Spear St",
+      "id": 2781,
+      "name": "Prospect",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-247-7770",
+      "position": 3018,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/2781/thumb_6Ds2L9hk35o5lPYFABzVjlFdy6KyQS6pyxQMusMTjArpJ0rH7tpXwrHqT44v1neb",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/2781/thumb_2781_Prospect.png",
+      "slug": "prospect--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 5:30 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.78980809999999",
+      "longitude": "-122.3910386",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "American (New)"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.78980809999999",
+          "longitude": "-122.3910386",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1050,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            9102,
+            9100
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.37818306462060497
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "348 Pine Street",
+      "id": 565,
+      "name": "Diller's Delicatessen",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-391-5650",
+      "position": 951,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://dillers.org/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/565/thumb_565-diller.png",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/565/thumb_diller_s.png",
+      "slug": "dillers-delicatessen--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7921552",
+      "longitude": "-122.4018403",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Deli"
+        },
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Lunch"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7921552",
+          "longitude": "-122.4018403",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3791784408030918
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "783 Mission St",
+      "id": 4576,
+      "name": "Super Duper Burger (Mission & 5th)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4115,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": null,
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4576/thumb_SF118_Super_Duper_Burgers.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4576/thumb_SF46_Super_Duper_Burgers.png",
+      "slug": "super-duper-burger-mission-5th--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.784733",
+      "longitude": "-122.4034203",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.784733",
+          "longitude": "-122.4034203",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": 0,
+          "order_item_limit": null,
+          "order_item_minimum": 0
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1320,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.3883739998681423
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "98 Mission St",
+      "id": 4575,
+      "name": "Super Duper Burger (Mission & Spear)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4114,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": null,
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4575/thumb_SF117_Super_Duper_Burgers.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4575/thumb_SF46_Super_Duper_Burgers.png",
+      "slug": "super-duper-burger-mission-spear--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 8:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7928351",
+      "longitude": "-122.394126",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7928351",
+          "longitude": "-122.394126",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": 0,
+          "order_item_limit": null,
+          "order_item_minimum": 0
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1200,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.3901340520184093
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "88 Hardie Place",
+      "id": 1005,
+      "name": "Galette 88",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-989-2222",
+      "position": 1385,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.galettesf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1005/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1005/thumb_galett_88.png",
+      "slug": "galette-88--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7903425",
+      "longitude": "-122.403937",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Creperies"
+        },
+        {
+          "name": "Cafe"
+        },
+        {
+          "name": "French"
+        },
+        {
+          "name": "Lunch"
+        },
+        {
+          "name": "Crepes"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7903425",
+          "longitude": "-122.403937",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 20,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.39037584311470047
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "245 Kearny Street",
+      "id": 1857,
+      "name": "Boxed Foods Company",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 2160,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.boxedfoodscompany.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1857/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1857/thumb_boxed_foods_company.png",
+      "slug": "boxed-foods-company--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7902624",
+      "longitude": "-122.4039977",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Salads"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7902624",
+          "longitude": "-122.4039977",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.39097849904521853
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "101 Spear Street",
+      "id": 252,
+      "name": "Muskaan Indian Cuisine",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-974-1111",
+      "position": 677,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.muskaancuisine.com/contact.html",
+      "image_thumb_url": null,
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/252/thumb_muskaan.png",
+      "slug": "muskaan-indian-cuisine--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7922835",
+      "longitude": "-122.3929328",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Indian"
+        },
+        {
+          "name": "Pakistani"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7922835",
+          "longitude": "-122.3929328",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3947310083468298
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "101 Spear Street",
+      "id": 432,
+      "name": "Arabi Cuisine",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-243-8575",
+      "position": 852,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/432/thumb_Arabi_Cuisine.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/432/thumb_arabi.png",
+      "slug": "arabi-cuisine--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7922835",
+      "longitude": "-122.3929328",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Middle Eatern"
+        },
+        {
+          "name": "Mediterranean"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7922835",
+          "longitude": "-122.3929328",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3947310083468298
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "101 Spear Street",
+      "id": 1799,
+      "name": "Roadys Longburger",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-974-6959",
+      "position": 2102,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://roadyslongburger.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1799/thumb_10378213_1426580790955730_6940202251604104208_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1799/thumb_roadys_longburger.png",
+      "slug": "roadys-longburger--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7925501",
+      "longitude": "-122.3933707",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Burgers"
+        },
+        {
+          "name": "American (New)"
+        },
+        {
+          "name": "Sandwiches"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7925501",
+          "longitude": "-122.3933707",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.3949892936147345
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "101 Spear St",
+      "id": 4548,
+      "name": "Yank Sing (Spear Street)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4087,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": null,
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4548/thumb_SF18_Yank_Sing.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4548/thumb_SF18_Yank_Sing.png",
+      "slug": "yank-sing-spear-street--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 4:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7925501",
+      "longitude": "-122.3933707",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "Dim Sum"
+        },
+        {
+          "name": "Cantonese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7925501",
+          "longitude": "-122.3933707",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": 0,
+          "order_item_limit": null,
+          "order_item_minimum": 0
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 960,
+          "display_name": "Lunch",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.3949892936147345
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "220 California Street",
+      "id": 870,
+      "name": "Barbacco eno Trattoria",
+      "order_limit": 20000,
+      "order_item_limit": null,
+      "phone_number": "415-955-1919",
+      "position": 1250,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.barbaccosf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/870/thumb_63689_10151833447273945_2047213060_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/870/thumb_barbacco.png",
+      "slug": "barbacco-eno-trattoria--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 5:30 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7934218",
+      "longitude": "-122.399233",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Italian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7934218",
+          "longitude": "-122.399233",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1050,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            1410,
+            1412
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.39538173147340927
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "75 Yerba Buena Lane",
+      "id": 1060,
+      "name": "Tropisueño",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-243-0299",
+      "position": 1439,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.tropisueno.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1060/thumb_1060_Tropisueno.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1060/thumb_tropisueno_final.png",
+      "slug": "tropisueno--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 5:00 PM & 5:30 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7853583",
+      "longitude": "-122.40405",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Mexican"
+        },
+        {
+          "name": "Tacos"
+        },
+        {
+          "name": "Burritos"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7853583",
+          "longitude": "-122.40405",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1020,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            1762
+          ]
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1050,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.3967087168610197
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "25 Yerba Buena Lane",
+      "id": 422,
+      "name": "Amber India (SF)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-777-0500",
+      "position": 842,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.amber-india.com/Indian-Restaurant-Sa...",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/422/thumb_Amber_India_SF.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/422/thumb_amber_india_sf.png",
+      "slug": "amber-india-sf--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open Noon - 3:00 PM & 5:00 PM - 10:30 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.785961",
+      "longitude": "-122.4046069",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Indian"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.785961",
+          "longitude": "-122.4046069",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 720,
+          "time_close": 900,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            680
+          ]
+        },
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1020,
+          "time_close": 1350,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            680
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.40906123401781097
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "157 4th Street",
+      "id": 208,
+      "name": "Freshroll Vietnamese Rolls & Bowls",
+      "order_limit": 12500,
+      "order_item_limit": null,
+      "phone_number": "415-348-1858",
+      "position": 633,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.eatatfreshroll.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/208/thumb_409593_389636467766570_1953884751_n.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/208/thumb_freshroll.png",
+      "slug": "freshroll-vietnamese-rolls-bowls--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:30 AM - 9:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7837982",
+      "longitude": "-122.4033111",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Vietnamese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7837982",
+          "longitude": "-122.4033111",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 12500,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 12500,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 690,
+          "time_close": 1260,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            4103
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.42324190203068746
+    },
+    {
+      "default_prep_duration": 25,
+      "address": "345 Spear St",
+      "id": 4585,
+      "name": "Palomino",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "650-503-3279",
+      "position": 4124,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 2,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/4585/thumb_SF52_Palomino.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/4585/thumb_palomino.png",
+      "slug": "palomino--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7899316",
+      "longitude": "-122.3901846",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4
+      ],
+      "tags": [
+        {
+          "name": "American (New)"
+        },
+        {
+          "name": "Mediterranean"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7899316",
+          "longitude": "-122.3901846",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": 0,
+          "order_item_limit": null,
+          "order_item_minimum": 0
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "To Go Service Fee",
+          "fee_type_id": 2,
+          "item_count": null,
+          "amount": 3,
+          "to_merchant": true
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1320,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": []
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.42488931613180325
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "307 Kearny Street",
+      "id": 754,
+      "name": "Muracci's Japanese Curry & Grill (San Francisco)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-773-1101",
+      "position": 1137,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.muraccis.com/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/754/thumb_muraccis.jpeg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/754/thumb_muracci_s.png",
+      "slug": "muraccis-japanese-curry-grill-san-francisco--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 4:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7910476",
+      "longitude": "-122.4041699",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Japanese"
+        },
+        {
+          "name": "Curry"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7910476",
+          "longitude": "-122.4041699",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 10,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 960,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            1229
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.42489988280255936
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "322 Kearny Street",
+      "id": 980,
+      "name": "Darn Good Food",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-402-5209",
+      "position": 1360,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://darngoodfood.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/980/thumb_store_980.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/980/thumb_darn_good_food.png",
+      "slug": "darn-good-food--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7911845",
+      "longitude": "-122.4041481",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "American (Traditional)"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7911845",
+          "longitude": "-122.4041481",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.4288676823934753
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "321 Kearny Street",
+      "id": 290,
+      "name": "Banana House",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-981-9090",
+      "position": 715,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://bananahousesf.net/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/290/thumb_featured_bananahouse.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/290/thumb_banana_house.png",
+      "slug": "banana-house--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:30 AM - 9:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7911348",
+      "longitude": "-122.4041904",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Thai"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7911348",
+          "longitude": "-122.4041904",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 690,
+          "time_close": 1260,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            483
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.42900150250077035
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "327 Kearny Street",
+      "id": 1070,
+      "name": "Ayola (Kearny St.)",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-391-1154",
+      "position": 1449,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://ayolasf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1070/thumb_Ayola__Kearny_St_.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1070/thumb_ayola.png",
+      "slug": "ayola-kearny-st--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7911822",
+      "longitude": "-122.4041849",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7911822",
+          "longitude": "-122.4041849",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.4304818605353606
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "139 Steuart Street",
+      "id": 615,
+      "name": "Region",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-896-1398",
+      "position": 1001,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.regionSF.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/615/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/615/thumb_region_final.png",
+      "slug": "region--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 5:00 PM - 10:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7927996",
+      "longitude": "-122.3926548",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Asian Fusion"
+        },
+        {
+          "name": "Chinese"
+        },
+        {
+          "name": "Lounges"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7927996",
+          "longitude": "-122.3926548",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 5,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 1020,
+          "time_close": 1320,
+          "display_name": "Dinner",
+          "relevant_menu_ids": [
+            7889
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.4320733135096897
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "329 Kearny Street",
+      "id": 940,
+      "name": "Paladar",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-398-4899",
+      "position": 1320,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://paladarcafecubano.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/940/thumb_paladar.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/940/thumb_paladar.png",
+      "slug": "paladar--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7912081",
+      "longitude": "-122.404205",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Cuban"
+        },
+        {
+          "name": "Spanish"
+        },
+        {
+          "name": "South American"
+        },
+        {
+          "name": "Latin American"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7912081",
+          "longitude": "-122.404205",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.43236491179528597
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "825 Mission Street",
+      "id": 182,
+      "name": "Green Papaya Restaurant",
+      "order_limit": 20000,
+      "order_item_limit": null,
+      "phone_number": "415-348-8882",
+      "position": 607,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.greenpapayadining.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/182/thumb_182_green_20papaya.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/182/thumb_green_papaya.png",
+      "slug": "green-papaya-restaurant--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 9:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7844509",
+      "longitude": "-122.4042198",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Vietnamese"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7844509",
+          "longitude": "-122.4042198",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 20000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 1260,
+          "display_name": "Lunch & Dinner",
+          "relevant_menu_ids": [
+            295,
+            296
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.43556529045657527
+    },
+    {
+      "default_prep_duration": 15,
+      "address": "335 Kearny Street",
+      "id": 1018,
+      "name": "Foundation Cafe",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-781-8880",
+      "position": 1397,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.foundationcafesf.com",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/1018/thumb_o.jpg",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/1018/thumb_FoundationCafe_Logo.png",
+      "slug": "foundation-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Closed",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7912729",
+      "longitude": "-122.4042721",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Sandwiches"
+        },
+        {
+          "name": "Breakfast"
+        },
+        {
+          "name": "Salad"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7912729",
+          "longitude": "-122.4042721",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 3,
+      "orderable": false,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [],
+      "open_now?": false,
+      "distance": 0.4378582587702259
+    },
+    {
+      "default_prep_duration": 20,
+      "address": "337 Kearny Street",
+      "id": 102,
+      "name": "Baladie Gourmet Cafe",
+      "order_limit": 30000,
+      "order_item_limit": null,
+      "phone_number": "415-989-6629",
+      "position": 527,
+      "sales_tax_percentage": "8.75",
+      "supported_preparation_type": 1,
+      "supported_payment_type": 0,
+      "supports_custom_ready_time": true,
+      "website_url": "http://www.baladiecafe.info/",
+      "image_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/image/102/thumb_featured_baladie.png",
+      "logo_thumb_url": "https://d3de9ulu7b6z6y.cloudfront.net/uploads/store/logo/102/thumb_baladie.png",
+      "slug": "baladie-gourmet-cafe--san-francisco-ca",
+      "tips_allowed": true,
+      "min_delivery_time": 7,
+      "max_delivery_time": 22,
+      "default_preparation_type_id": 4,
+      "hours_today": "Open 11:00 AM - 4:00 PM",
+      "location": "San Francisco, CA",
+      "city_slug": "san-francisco-ca",
+      "latitude": "37.7913643",
+      "longitude": "-122.4042461",
+      "busy_now?": false,
+      "coming_soon_at": null,
+      "coming_soon?": false,
+      "supported_preparation_types": [
+        4,
+        0
+      ],
+      "tags": [
+        {
+          "name": "Mediterranean"
+        },
+        {
+          "name": "Middle Eastern"
+        },
+        {
+          "name": "Greek"
+        }
+      ],
+      "store_delivery_zones": [
+        {
+          "latitude": "37.7913643",
+          "longitude": "-122.4042461",
+          "radius": "5.0",
+          "latitude_2": null,
+          "longitude_2": null,
+          "polygon": null,
+          "description": null,
+          "latitude2": null,
+          "longitude2": null
+        }
+      ],
+      "store_order_limits": [
+        {
+          "preparation_type_id": 4,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        },
+        {
+          "preparation_type_id": 0,
+          "order_dollar_limit": 30000,
+          "order_dollar_minimum": null,
+          "order_item_limit": null,
+          "order_item_minimum": null
+        }
+      ],
+      "store_preparation_type_fees": [
+        {
+          "preparation_type_id": 4,
+          "name": "Delivery Fee",
+          "fee_type_id": 0,
+          "item_count": null,
+          "amount": 600,
+          "to_merchant": false
+        }
+      ],
+      "additional_prep_duration": 0,
+      "orderable": true,
+      "store_time": "2015-03-07T06:39:37-08:00",
+      "store_hours": [
+        {
+          "custom_date": null,
+          "day_name_short": "Sat",
+          "menu_set": -1,
+          "time_open": 660,
+          "time_close": 960,
+          "display_name": "Lunch",
+          "relevant_menu_ids": [
+            175
+          ]
+        }
+      ],
+      "open_now?": false,
+      "distance": 0.44010133893117626
+    }
+  ],
+  "success": true
+}
