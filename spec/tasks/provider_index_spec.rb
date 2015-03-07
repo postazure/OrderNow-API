@@ -21,7 +21,5 @@ describe 'restaurant namespace rake task' do
       expect(provider_responses).to_not include false
       expect(provider_responses).to include true
     end
-
-
   end
 end
