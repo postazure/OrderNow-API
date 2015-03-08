@@ -4,14 +4,17 @@ gem 'rails', '4.1.8'
 gem 'pg'
 
 gem 'rest-client'
+gem 'geocoder'
 
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
-  gem 'vcr'
-  gem 'webmock', '< 1.16'
+
+  # For VCR
+  # gem 'vcr'
+  # gem 'webmock', '< 1.16'
 end
 
 group :development do

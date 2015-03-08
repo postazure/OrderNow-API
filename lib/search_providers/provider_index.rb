@@ -1,4 +1,11 @@
 class ProviderIndex
+
+  def self.origin
+    origin = Geocoder.search(94117).first
+    origin.geometry["location"]
+  end
+
+
   def self.providers
     [
       "order_ahead",
@@ -6,6 +13,6 @@ class ProviderIndex
   end
 
   def self.order_ahead
-    OrderAheadProvider.new
+    OrderAheadProvider.new(self.origin)
   end
 end
