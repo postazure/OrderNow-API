@@ -20,3 +20,5 @@ Parent class to all providers.
 ## Providers
 
 Each provider is responsible for making API calls and returning collections of Restaurant records (non-persisted).
+
+<b>#to_restaurants</b> - Returns an Array of Restaurant records. Note: The records have not been saved to the database.

@@ -15,18 +15,4 @@ describe 'restaurant namespace rake task' do
     expect(location["lat"]).to be_within(0.00001).of(37.7717185)
     expect(location["lng"]).to be_within(0.00001).of(-122.4438929)
   end
-
-  describe "restaurant:get_core" do
-    it "connects to each provider" do
-      provider_responses = []
-      all_providers.each do |provider_name|
-        provider = ProviderIndex.send(provider_name)
-        provider_responses << provider.is_provider?
-      end
-
-      expect(provider_responses.length).to eq all_providers.length
-      expect(provider_responses).to_not include false
-      expect(provider_responses).to include true
-    end
-  end
 end

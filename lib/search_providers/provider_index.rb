@@ -13,6 +13,8 @@ class ProviderIndex
   end
 
   def self.order_ahead
-    OrderAheadProvider.new(self.origin)
+    provider = OrderAheadProvider.new(self.origin)
+    response = provider.search_by_location
+    provider.to_restaurants(response)
   end
 end

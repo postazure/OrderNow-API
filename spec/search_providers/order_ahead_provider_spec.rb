@@ -6,20 +6,17 @@ require 'search_providers/order_ahead_provider'
 
 describe 'restaurant namespace rake task' do
   let(:order_ahead)  {ProviderIndex.order_ahead}
+  
+  describe "#to_restaurant" do
+    it "returns an array of restaurant records" do
+      restaurants = order_ahead
+      all_restaurant_objects = true
+      restaurants.each do |restaurant|
+        all_restaurant_objects = false if restaurant.class != Restaurant
+      end
 
-  describe "#seach_by_location" do
-    it "makes a successful api call" do
-      origin = order_ahead.search_by_location
-      expect(origin.keys).to include "per_page"
-      expect(origin.keys).to include "success"
-      expect(origin["success"]).to be true
-      expect(origin.keys).to include "stores"
-      expect(origin["stores"].length > 0).to be true
+      expect(all_restaurant_objects).to be true
+      expect(restaurants.class).to eq Array
     end
   end
-
-  # describe "restaurant:get_core" do
-  #
-  #
-  # end
 end

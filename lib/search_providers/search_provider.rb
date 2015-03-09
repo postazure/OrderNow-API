@@ -1,5 +1,5 @@
 class SearchProvider
-  
+
   def search_by_location
     raise "Feature 'search_by_locaion' has not been implemented for this Provider"
   end
