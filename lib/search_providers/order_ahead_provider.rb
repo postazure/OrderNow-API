@@ -1,4 +1,3 @@
-# require "search_provider"
 class OrderAheadProvider < SearchProvider
   def initialize search_origin
     @max_results = 1000
