@@ -45,6 +45,7 @@ GEM
     coffee-script-source (1.9.1)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
+    dotenv (2.0.0)
     erubis (2.7.0)
     execjs (2.4.0)
     geocoder (1.2.6)
@@ -88,6 +89,7 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
+    redis (3.2.1)
     rest-client (1.7.2)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
@@ -144,6 +146,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 4.0.0)
+  dotenv
   geocoder
   jbuilder (~> 2.0)
   jquery-rails
@@ -151,6 +154,7 @@ DEPENDENCIES
   quiet_assets
   rack-cors (~> 0.3.1)
   rails (= 4.1.8)
+  redis
   rest-client
   rspec-rails (~> 3.0)
   sass-rails (~> 4.0.3)
