@@ -9,6 +9,7 @@ class SearchProvider
   end
 
   def get_json url
+    puts "\n[get_json] Getting json from: #{url}"
     response = RestClient.get(url)
     JSON.parse(response.body)
   end

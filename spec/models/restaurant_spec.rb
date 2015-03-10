@@ -66,5 +66,13 @@ describe Restaurant do
         expect(test_restaurant.errors["existing"]).to eq ["update"]
       end
     end
+
+    describe "same restaurant, but different service" do
+      it "saves with duplicate information aslong as the service is different" do
+        test_restaurant.source_name = "New Test Service"
+        is_saved = test_restaurant.save
+        expect(is_saved).to be true
+      end
+    end
   end
 end
