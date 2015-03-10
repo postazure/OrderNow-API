@@ -1,14 +1,4 @@
 class ProviderIndex
-
-  def self.origin
-    begin
-      origin = Geocoder.search(94117).first
-      origin.geometry["location"]
-    rescue
-      {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
-    end
-  end
-
   def self.providers
     [
       "order_ahead",
@@ -39,5 +29,14 @@ class ProviderIndex
     end
 
     return save_status
+  end
+
+  def self.origin
+    begin
+      origin = Geocoder.search(94117).first
+      origin.geometry["location"]
+    rescue
+      {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
+    end
   end
 end

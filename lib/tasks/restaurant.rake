@@ -7,7 +7,8 @@ namespace :restaurant do
     #pull restaurants and populate DB
     providers = ProviderIndex.all
     providers.each do |provider|
-      ProviderIndex.send(provider)
+      restaurant_records = ProviderIndex.send(provider)
+      ProviderIndex.save(restaurant_records)
     end
   end
 end
