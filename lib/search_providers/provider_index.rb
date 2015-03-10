@@ -1,11 +1,13 @@
 class ProviderIndex
 
   def self.origin
-    # origin = Geocoder.search(94117).first
-    # origin.geometry["location"]
-    {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
+    begin
+      origin = Geocoder.search(94117).first
+      origin.geometry["location"]
+    rescue
+      {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
+    end
   end
-
 
   def self.providers
     [
