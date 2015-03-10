@@ -4,13 +4,15 @@ class Restaurant < ActiveRecord::Base
   def find_and_save_or_update
     # errors: exact   -> no change to record
     # errors: update  -> change has been made, requires update
-    existing_record = Restaurant.find_by name: self.name
-    return if existing_record.nil?
-
-    if self.diff?(existing_record)
-      errors.add(:existing, "update")
-    else
-      errors.add(:existing, "exact")
+    existing_records = Restaurant.where ({name: self.name, source_name: self.source_name})
+    return if existing_records.empty?
+    existing_records.each do |existing_record|
+      if self.diff?(existing_record)
+        errors.add(:existing, "update")
+      else
+        errors.add(:existing, "exact")
+      end
+      return if errors
     end
   end
 
