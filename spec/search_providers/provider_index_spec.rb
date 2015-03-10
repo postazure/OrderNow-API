@@ -66,7 +66,7 @@ describe 'restaurant namespace rake task' do
         ProviderIndex.save(records)
         db_restaurant = Restaurant.find_by name: "Test Name"
 
-        expect(db_restaurant.phone_number).to eq "345-345-3456"  
+        expect(db_restaurant.phone_number).to eq "345-345-3456"
       end
 
       it "needs to update a record" do
@@ -92,7 +92,17 @@ describe 'restaurant namespace rake task' do
       end
     end
 
-    it "does NOT save a record that exists [exact]"
+    it "does NOT save a record that exists [exact]" do
+      records.push(records[0])
+      report = ProviderIndex.save(records)
 
+      expect(report[:records]).to eq 2
+      expect(report[:created]).to eq 1
+      expect(report[:updated]).to eq 0
+      expect(report[:matched]).to eq 1
+
+      db_restaurants_after = Restaurant.all
+      expect(db_restaurants_after.length).to eq 1
+    end
   end
 end
