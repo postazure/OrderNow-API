@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/business/ovo-cafe-san-francisco
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Authorization:
+      - OAuth oauth_consumer_key="DOJklB6Fkv0RpGiyApxhQA", oauth_nonce="684c5bd6966f587cbc76a53061afa513",
+        oauth_signature="D6srFhVrck1yIXNlfV2I81kRcPc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1426084241", oauth_token="bEE5ysn8MXwNcJ2AaNA3leRv9yXmFV66",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 11 Mar 2015 14:30:38 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web58-r7-sfo2, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=360951fbeba8368f0d42f638899ac586; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=iXYbFWMzNDZDvV3tX6AoawztpdLcy-jnxa5QzTunAGfZEypazWyLOStGm8eVKQCK-4Rq7kwcMTLKgzmaCqnD-07WXJWJKXTZ;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 06-Mar-2035 14:30:38
+        GMT
+      Content-Length:
+      - '2352'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb1-r4-sfo2
+    body:
+      encoding: UTF-8
+      string: '{"is_claimed": true, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/ovo-cafe-san-francisco",
+        "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 134, "name": "Ovo Cafe", "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/XSRn8exv_VJGwOUxRlNSVA/ms.jpg",
+        "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/ovo-cafe-san-francisco", "menu_date_updated":
+        1403780927, "reviews": [{"rating": 4, "excerpt": "Egg Tarts!!! \n\nThey had
+        to make some special for us, so we had to leave and come back, but they were
+        so tasty. Their Hong Kong iced coffee was yummy too. If...", "time_created":
+        1425957287, "rating_image_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media4.fl.yelpcdn.com/photo/n6LDvqOca1J9J4uj8QLBBw/ms.jpg",
+        "id": "6DKqAhiM5VKhLuD5C7h0WA", "name": "Melissa G."}, "rating_image_large_url":
+        "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "pqTIPilIb4uvUAyRByfBrA"}], "phone": "4159083888", "snippet_text": "I
+        love this place, seeing it with only 3.5 stars make me not happy, so I decided
+        to give it a little more love.\n\nI come here regularly for lunch once every...",
+        "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/5Z-EDMvMk7o-8YVupf_jtA/ms.jpg",
+        "categories": [["Cafes", "cafes"], ["Bakeries", "bakeries"], ["Chinese", "chinese"]],
+        "display_phone": "+1-415-908-3888", "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "menu_provider": "single_platform", "id": "ovo-cafe-san-francisco", "is_closed":
+        false, "location": {"cross_streets": "Natoma St \u0026 Howard St", "city":
+        "San Francisco", "display_address": ["171 2nd St", "Financial District", "San
+        Francisco, CA 94105"], "geo_accuracy": 9.5, "neighborhoods": ["Financial District",
+        "SoMa"], "postal_code": "94105", "country_code": "US", "address": ["171 2nd
+        St"], "coordinate": {"latitude": 37.787284999999997, "longitude": -122.3985},
+        "state_code": "CA"}}'
+    http_version: 
+  recorded_at: Wed, 11 Mar 2015 14:30:41 GMT
+recorded_with: VCR 2.9.3
