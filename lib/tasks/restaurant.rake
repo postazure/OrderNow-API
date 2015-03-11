@@ -13,12 +13,12 @@ namespace :restaurant do
     end
   end
 
-  # desc "Pull yelp information from yelp api"
-  # task get_yelp: :environment do
-  #   data = Restaurant.where.not(yelp_url: nil)
-  #   YelpHarvester.insert(data)
-  #
-  # end
+  desc "Pull yelp information from yelp api"
+  task get_yelp: :environment do
+    data = Restaurant.where.not(yelp_url: nil)
+    YelpHarvester.insert(data)
+
+  end
   #
   # desc "For tests only"
   # task test: :environment do
