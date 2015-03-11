@@ -11,17 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150311135812) do
+ActiveRecord::Schema.define(version: 20150311165513) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "restaurant_to_tags", force: true do |t|
-    t.integer  "restaurant_id"
-    t.integer  "tag_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "restaurants", force: true do |t|
     t.string   "name"
@@ -37,8 +30,27 @@ ActiveRecord::Schema.define(version: 20150311135812) do
     t.datetime "updated_at"
   end
 
+  create_table "restaurants_tags", id: false, force: true do |t|
+    t.integer "restaurant_id"
+    t.integer "tag_id"
+  end
+
+  add_index "restaurants_tags", ["restaurant_id"], name: "index_restaurants_tags_on_restaurant_id", using: :btree
+  add_index "restaurants_tags", ["tag_id"], name: "index_restaurants_tags_on_tag_id", using: :btree
+
   create_table "tags", force: true do |t|
     t.string   "text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "yelp_infos", force: true do |t|
+    t.float    "rating"
+    t.string   "rating_image_url"
+    t.integer  "review_count"
+    t.string   "snippet_text"
+    t.string   "snippet_image_url"
+    t.integer  "restaurant_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

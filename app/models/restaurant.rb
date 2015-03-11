@@ -1,6 +1,6 @@
 class Restaurant < ActiveRecord::Base
-  has_many :restaurant_to_tags
-  has_many :tags, through: :restaurant_to_tags
+  has_one :yelp_info
+  has_and_belongs_to_many :tags, join_table: :restaurants_tags
 
   validate :find_and_save_or_update
 

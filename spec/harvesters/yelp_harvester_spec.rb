@@ -15,31 +15,77 @@ describe YelpHarvester do
     })
   end
 
+
   it "get yelp id from yelp_url" do
     VCR.use_cassette('yelp') do
       yelp_harvester = YelpHarvester.new(restaurant)
-      yelp_id = yelp_harvester.get_yelp_id(restaurant.yelp_url)
 
+      yelp_id = yelp_harvester.get_yelp_id(restaurant.yelp_url)
       expect(yelp_id).to eq "ovo-cafe-san-francisco"
     end
   end
 
-  describe "it gets data from yelp" do
-    it "gets ratings"
+  describe "it gets data from yelp and saves it" do
+    it "gets rating" do
+      VCR.use_cassette('yelp') do
+        yelp_harvester = YelpHarvester.new(restaurant)
+        is_saved = yelp_harvester.populate_data
 
-    it "gets review_count"
+        expect(is_saved).to be true
+        expect(restaurant.yelp_info.rating > 0).to be true
+        expect(restaurant.yelp_info.rating <= 5 ).to be true
+      end
+    end
 
-    it "gets snippet_text"
+    it "gets review_count" do
+      VCR.use_cassette('yelp') do
+        yelp_harvester = YelpHarvester.new(restaurant)
+        is_saved = yelp_harvester.populate_data
 
-    it "gets snippet_image_url"
+        expect(is_saved).to be true
+        expect(restaurant.yelp_info.review_count > 0).to be true
+        expect(restaurant.yelp_info.review_count.class).to be Fixnum
+      end
+    end
 
-    it "gets tags (categories)"
+    it "gets snippet_text" do
+      VCR.use_cassette('yelp') do
+        yelp_harvester = YelpHarvester.new(restaurant)
+        is_saved = yelp_harvester.populate_data
 
-  end
+        expect(is_saved).to be true
+        expect(restaurant.yelp_info.snippet_text.length > 0).to be true
+        expect(restaurant.yelp_info.snippet_text.class).to be String
+      end
+    end
 
-  describe "it saves data associated with a record" do
-    it "saves ratings"
+    it "gets snippet_image_url" do
+      VCR.use_cassette('yelp') do
+        yelp_harvester = YelpHarvester.new(restaurant)
+        is_saved = yelp_harvester.populate_data
 
-    it "saves tags and associates them to a model"
+        expect(is_saved).to be true
+        expect(restaurant.yelp_info.snippet_text.length > 0).to be true
+        expect(restaurant.yelp_info.snippet_text.class).to be String
+      end
+    end
+
+    it "gets tags (categories)" do
+      VCR.use_cassette('yelp') do
+        yelp_harvester = YelpHarvester.new(restaurant)
+        yelp_harvester.populate_tags
+
+        expect(restaurant.tags.first.text).to include("cafes")
+        expect(restaurant.tags.second.text).to include("bakeries")
+        expect(restaurant.tags.third.text).to include("chinese")
+        expect(restaurant.tags.length > 0).to be true
+      end
+    end
   end
 end
+
+
+# VCR
+# VCR.use_cassette('yelp') do
+#
+# end

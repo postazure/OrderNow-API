@@ -10,9 +10,9 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.1
       Authorization:
-      - OAuth oauth_consumer_key="DOJklB6Fkv0RpGiyApxhQA", oauth_nonce="684c5bd6966f587cbc76a53061afa513",
-        oauth_signature="D6srFhVrck1yIXNlfV2I81kRcPc%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1426084241", oauth_token="bEE5ysn8MXwNcJ2AaNA3leRv9yXmFV66",
+      - OAuth oauth_consumer_key="DOJklB6Fkv0RpGiyApxhQA", oauth_nonce="6c0bab956a9b2b0fd07897a8283c5402",
+        oauth_signature="TwqmfKo1HCuVCiCGFYlLY9DzebQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1426090117", oauth_token="bEE5ysn8MXwNcJ2AaNA3leRv9yXmFV66",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -24,17 +24,17 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 11 Mar 2015 14:30:38 GMT
+      - Wed, 11 Mar 2015 16:08:34 GMT
       Server:
       - Apache
       X-Node:
-      - web58-r7-sfo2, api_com
+      - web15-r3-sfo2, api_com
       Cache-Control:
       - private
       Set-Cookie:
-      - bse=360951fbeba8368f0d42f638899ac586; Domain=.yelp.com; Path=/; HttpOnly
-      - yuv=iXYbFWMzNDZDvV3tX6AoawztpdLcy-jnxa5QzTunAGfZEypazWyLOStGm8eVKQCK-4Rq7kwcMTLKgzmaCqnD-07WXJWJKXTZ;
-        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 06-Mar-2035 14:30:38
+      - bse=6447a39b38f847495013b02c05593776; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=Y0itrIV9hCw3_todtnrO3adwDdTcHmnUJNapM29mV-u4VooKKC9zL50AZ5H01wVL_6m1kVbGf__cgUrRsUE8UMCHgyJwgYRK;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 06-Mar-2035 16:08:34
         GMT
       Content-Length:
       - '2352'
@@ -75,5 +75,5 @@ http_interactions:
         St"], "coordinate": {"latitude": 37.787284999999997, "longitude": -122.3985},
         "state_code": "CA"}}'
     http_version: 
-  recorded_at: Wed, 11 Mar 2015 14:30:41 GMT
+  recorded_at: Wed, 11 Mar 2015 16:08:38 GMT
 recorded_with: VCR 2.9.3
