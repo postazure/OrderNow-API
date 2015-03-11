@@ -9,6 +9,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.string :yelp_url
       t.integer :delivery_hours_start
       t.integer :delivery_hours_end
+      t.integer :redis_key
 
       t.timestamps
     end

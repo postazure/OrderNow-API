@@ -11,10 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150306172527) do
+ActiveRecord::Schema.define(version: 20150311135812) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "restaurant_to_tags", force: true do |t|
+    t.integer  "restaurant_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "restaurants", force: true do |t|
     t.string   "name"
@@ -25,6 +32,13 @@ ActiveRecord::Schema.define(version: 20150306172527) do
     t.string   "yelp_url"
     t.integer  "delivery_hours_start"
     t.integer  "delivery_hours_end"
+    t.integer  "redis_key"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tags", force: true do |t|
+    t.string   "text"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

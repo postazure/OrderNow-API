@@ -1,4 +1,7 @@
 class Restaurant < ActiveRecord::Base
+  has_many :restaurant_to_tags
+  has_many :tags, through: :restaurant_to_tags
+
   validate :find_and_save_or_update
 
   def find_and_save_or_update
