@@ -2,6 +2,7 @@ class YelpHarvester
   def initialize restaurant
     @restaurant = restaurant
     yelp_business_id = get_yelp_id(restaurant.yelp_url)
+    puts "[YelpHarvester#initialize] Contacting yelp api for: #{yelp_business_id}"
     @yelp_data = Yelp.client.business(yelp_business_id)
   end
 
@@ -20,16 +21,25 @@ class YelpHarvester
       restaurant_id: @restaurant.id,
     })
 
-    yelp_info.save
+    is_saved = yelp_info.save
+    if is_saved
+      puts "[YelpHarvester#populate_data] Saved yelp data for: #{@restaurant.name}"
+    else
+      puts "[YelpHarvester#populate_data] Error while saving yelp data for: #{@restaurant.name}"
+    end
+    return is_saved
   end
 
   def populate_tags
     @yelp_data.categories.each do |capitolized_tag, downcased_tag|
-      puts downcased_tag
-      @restaurant.tags.create!({
+      tag = @restaurant.tags.create({
         text: downcased_tag
       })
+      if tag.persisted?
+        puts "[YelpHarvester#populate_tags] Saved tags for: #{@restaurant.name} Tag: #{tag.text}"
+      else
+        puts "[YelpHarvester#populate_tags] Error while saving tags for: #{@restaurant.name} Tag: #{tag.text}"
+      end
     end
-
   end
 end

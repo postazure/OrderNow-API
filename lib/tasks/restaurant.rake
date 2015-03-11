@@ -1,7 +1,8 @@
 require 'search_providers/search_provider'
 require 'search_providers/order_ahead_provider'
 require 'search_providers/provider_index'
-# require 'harvesters/yelp_harvester'
+require 'harvesters/harvester_index'
+require 'harvesters/yelp_harvester'
 
 namespace :restaurant do
   desc "Pull records data from restaurant search providers."
@@ -13,25 +14,17 @@ namespace :restaurant do
     end
   end
 
+  desc "Runs as Harvesters"
+  task get_harvesting: :environment do
+    harvesters = HarvesterIndex.harvesters
+
+    harvesters.each do |harvester|
+      HarvesterIndex.send(harvester)
+    end
+  end
+
   desc "Pull yelp information from yelp api"
   task get_yelp: :environment do
-    data = Restaurant.where.not(yelp_url: nil)
-    YelpHarvester.insert(data)
-
+    HarvesterIndex.yelp
   end
-  #
-  # desc "For tests only"
-  # task test: :environment do
-  #   # REDIS
-  #   # $redis.set("test_key", "hello world")
-  #   # res = $redis.get("test_key")
-  #
-  #   # YELP
-  #   # puts "#"*100
-  #   # res = Yelp.client.business('ovo-cafe-san-francisco')
-  #   # p res.categories
-  #   # p res.rating
-  #   #
-  #   # puts "#"*100
-  # end
 end
