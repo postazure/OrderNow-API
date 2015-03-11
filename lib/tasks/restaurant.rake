@@ -13,18 +13,25 @@ namespace :restaurant do
     end
   end
 
-  # desc "Pull yelp information from yelp api"
-  # task get_yelp: :enviroment do
-  #   db_restaurant = Restaurant.where.not(yelp_url: nil)
-  #
-  # end
+  desc "Pull yelp information from yelp api"
+  task get_yelp: :environment do
+    data = Restaurant.where.not(yelp_url: nil)
+    YelpHarvester.insert(data)
+
+  end
 
   desc "For tests only"
   task test: :environment do
-    $redis.set("test_key", "hello world")
-    res = $redis.get("test_key")
+    # REDIS
+    # $redis.set("test_key", "hello world")
+    # res = $redis.get("test_key")
+
+    # YELP
     puts "#"*100
-    p res
+    res = Yelp.client.business('ovo-cafe-san-francisco')
+    p res.categories
+    p res.rating
+
     puts "#"*100
   end
 end
