@@ -15,19 +15,23 @@ class ProviderIndex
     save_status = {records: 0, created: 0, updated: 0, matched: 0}
     save_status[:records] = records.length
     records.each do |restaurant|
+    current_status = ""
       if restaurant.save
         save_status[:created] += 1
+        current_status = "Saved"
       elsif restaurant.errors[:existing].include?("update")
         db_restaurant = Restaurant.find_by name: restaurant.name
         db_restaurant.diff(restaurant).each do |difference|
           db_restaurant.update_attribute(difference.to_sym, restaurant.send(difference))
         end
+        current_status = "Updated"
         save_status[:updated] += 1
       elsif restaurant.errors[:existing].include?("exact")
+        current_status = "Matched"
         save_status[:matched] += 1
       end
+    puts "[ProviderIndex#save] Saving record: #{restaurant.name} - #{current_status} (#{restaurant.id})"
     end
-
     return save_status
   end
 

@@ -24,15 +24,9 @@ class OrderAheadProvider < SearchProvider
 
   def to_restaurants data
     restaurants = []
-    data["stores"][0..1].each do |restaurant| #debug 2 restaurants
-    # data["stores"].each do |restaurant|
-      puts "[OrderAheadProvider] Getting data for #{restaurant["name"]}."
-      sleep(1.second)
-
+    data["stores"].each_with_index do |restaurant, i|
+      puts "[OrderAheadProvider#to_restaurant] Creating record for #{restaurant["name"]}. (#{i})"
       hours = open_hours(restaurant["hours_today"])
-
-      restaurant_data = find_by_id(restaurant["slug"])
-
       new_restaurant = Restaurant.new({
         name: restaurant["name"],
         phone_number: restaurant["phone_number"],
@@ -42,11 +36,16 @@ class OrderAheadProvider < SearchProvider
         delivery_hours_start: hours["start"],
         delivery_hours_end: hours["end"],
       })
-
-      new_restaurant.yelp_url = restaurant_data["yelp_url"]
       restaurants << new_restaurant
+      sleep(1.second) unless Rails.env.test?
     end
     return restaurants
+  end
+
+  def get_yelp_url record
+    restaurant_hash = find_by_id(record["slug"])
+    record.yelp_url = restaurant_hash["yelp_url"]
+    record.save
   end
 
   def open_hours data

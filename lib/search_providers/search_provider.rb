@@ -9,8 +9,21 @@ class SearchProvider
   end
 
   def get_json url
-    puts "\n[get_json] Getting json from: #{url}"
-    response = RestClient.get(url)
-    JSON.parse(response.body)
+    begin
+      puts "[get_json] Getting json from: #{url}"
+      response = RestClient.get(url, user_agent: "chrome")
+      JSON.parse(response.body)
+    rescue
+      puts "[get_json] ERROR: #{url}"
+
+      # print "[get_json] Retrying API call in: "
+      # timeout = 180 #seconds
+      # timeout.times do |i|
+      #   sleep(1.second)
+      #    print "#{timeout-i}."
+      # end
+      # puts
+      # get_json(url)
+    end
   end
 end
