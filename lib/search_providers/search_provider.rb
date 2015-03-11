@@ -14,16 +14,19 @@ class SearchProvider
       response = RestClient.get(url, user_agent: "chrome")
       JSON.parse(response.body)
     rescue
-      puts "[get_json] ERROR: #{url}"
-
-      # print "[get_json] Retrying API call in: "
-      # timeout = 180 #seconds
-      # timeout.times do |i|
-      #   sleep(1.second)
-      #    print "#{timeout-i}."
-      # end
-      # puts
+      puts "[get_json] ERROR: (skipping) #{url}"
+      # retry_timeout
       # get_json(url)
     end
+  end
+
+  def retry_timeout
+    print "[get_json] Retrying API call in: "
+    timeout = 180 #seconds
+    timeout.times do |i|
+      sleep(1.second)
+       print "#{timeout-i}."
+    end
+    puts
   end
 end

@@ -3,12 +3,12 @@ class OrderAheadProvider < SearchProvider
     @max_results = 1000
     @lat = search_origin["lat"]
     @lng = search_origin["lng"]
-    @host = "https://www.orderaheadapp.com"
+    @host = "https://www.orderaheadapp.com/"
     @slug = "--san-francisco-ca.json"
   end
 
   def search_by_location
-    search_prefix = "/api/v1.0.6/stores/search/?query="
+    search_prefix = "api/v1.0.6/stores/search/?query="
     search_suffix  = "&page=1&per=#{@max_results}&ext=&delivers_to=true&pickup_at=&open_now="
     location = "&lat=#{@lat}&lon=#{@lng}"
     url = @host + search_prefix + search_suffix + location
@@ -16,10 +16,9 @@ class OrderAheadProvider < SearchProvider
     restaurants_index = get_json(url)
   end
 
-  def find_by_id slug
-    restaurant_url = @host+ "/places/" + slug + ".json?client_name=computer"
-
-    get_json(restaurant_url)
+  def find_by_id url
+    sleep(1.second) unless Rails.env.test?
+    get_json(url)
   end
 
   def to_restaurants data
@@ -31,7 +30,7 @@ class OrderAheadProvider < SearchProvider
         name: restaurant["name"],
         phone_number: restaurant["phone_number"],
         source_name: "Order Ahead",
-        source_url: @host + restaurant["slug"] + ".json?client_name=computer",
+        source_url: @host + "places/"+ restaurant["slug"] + ".json?client_name=computer",
         logo_url: restaurant["logo_thumb_url"],
         delivery_hours_start: hours["start"],
         delivery_hours_end: hours["end"],
@@ -42,10 +41,15 @@ class OrderAheadProvider < SearchProvider
     return restaurants
   end
 
-  def get_yelp_url record
-    restaurant_hash = find_by_id(record["slug"])
-    record.yelp_url = restaurant_hash["yelp_url"]
-    record.save
+  def get_yelp_urls records
+    records.each do |restaurant|
+
+      restaurant_hash = find_by_id(restaurant.source_url)
+      if restaurant_hash && restaurant_hash["yelp_url"]
+        restaurant.yelp_url = restaurant_hash["yelp_url"]
+        restaurant.save
+      end
+    end
   end
 
   def open_hours data

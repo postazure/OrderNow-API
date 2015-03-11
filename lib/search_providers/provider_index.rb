@@ -8,7 +8,12 @@ class ProviderIndex
   def self.order_ahead
     provider = OrderAheadProvider.new(self.origin)
     response = provider.search_by_location
-    provider.to_restaurants(response)
+    restaurants = provider.to_restaurants(response)
+    self.save(restaurants)
+    db_restaurants = Restaurant.where(yelp_url: nil)
+    provider.get_yelp_urls(db_restaurants)
+    
+    return restaurants
   end
 
   def self.save records
@@ -36,11 +41,12 @@ class ProviderIndex
   end
 
   def self.origin
-    begin
-      origin = Geocoder.search(94117).first
-      origin.geometry["location"]
-    rescue
-      {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
-    end
+    # begin
+    #   origin = Geocoder.search(94117).first
+    #   origin.geometry["location"]
+    # rescue
+    #   {"lat"=>37.7717185, "lng"=>-122.4438929} # San Francisco, CA
+    # end
+    {"lat"=>37.7717185, "lng"=>-122.4438929}
   end
 end
