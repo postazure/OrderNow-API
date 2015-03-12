@@ -1,29 +1,19 @@
 class RestaurantsController < ApplicationController
   def index
-    return_records = {
-    records_found: false,
-    results:[],
-    }
-
-    attrs = [
-      "id",
-      "name",
-      "source_url",
-      "delivery_hours_start",
-      "delivery_hours_end",
-    ]
+    return_records = {records_found: false, results:[]}
+    attrs = ["id", "name", "source_url", "delivery_hours_start", "delivery_hours_end"]
 
     if params["k"]
       compiled_results = []
       tag_results = search_by_tag(params["k"])
-      compiled_results.push(index_serializer(tag_results, attrs))
+      compiled_results.push(serializer(tag_results, attrs))
 
       name_results = search_by_name(params["k"])
-      compiled_results.push(index_serializer(name_results, attrs))
+      compiled_results.push(serializer(name_results, attrs))
 
       return_records[:results] = compiled_results.flatten.compact.uniq
     else
-      return_records[:results] = index_serializer(Restaurant.all, attrs)
+      return_records[:results] = serializer(Restaurant.all, attrs)
     end
     return_records[:records_found] = true unless return_records[:results].empty?
     render json: return_records
@@ -46,12 +36,13 @@ class RestaurantsController < ApplicationController
       "delivery_hours_end",
       "interval_rank",
     ]
+
     tags_attrs = ["id","text"]
     yelp_attrs = ["rating","rating_image_url","review_count","snippet_text","snippet_image_url"]
 
-    restaurant = index_serializer([db_restaurant], restaurant_attrs)[0]
-    restaurant["yelp_info"] = index_serializer([yelp], yelp_attrs)[0]
-    restaurant["tags"] = index_serializer(tags, tags_attrs)
+    restaurant = serializer([db_restaurant], restaurant_attrs)[0]
+    restaurant["yelp_info"] = serializer([yelp], yelp_attrs)[0]
+    restaurant["tags"] = serializer(tags, tags_attrs)
     render json: restaurant
   end
 
@@ -73,7 +64,7 @@ class RestaurantsController < ApplicationController
     param.split("+")
   end
 
-  def index_serializer records, include_attrs
+  def serializer records, include_attrs
     display_records = []
     records.each do |record|
       display_record = {}
