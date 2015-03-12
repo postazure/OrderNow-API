@@ -57,39 +57,70 @@ describe "GET /restaurants" do
   end
 
   describe "one word search term" do
-    describe "request with query params" do
-      it "does not return unrelated results" do
-        db_restaurant.save!
-        get restaurants_path, {"k" => "bar"}, {"Accept" => "application/json"}
-        # p request.query_string
-        # p request.url
-        expect(response.status).to eq 200
 
-        body = JSON.parse(response.body)
-        json_restaurant = body["results"].first
+    it "does not return unrelated results" do
+      db_restaurant.save!
+      get restaurants_path, {"k" => "bar"}, {"Accept" => "application/json"}
+      expect(response.status).to eq 200
 
-        # p body
-        expect(body["records_found"]).to be false
-        expect(body["results"]).to be_empty
+      body = JSON.parse(response.body)
+      json_restaurant = body["results"].first
+
+      expect(body["records_found"]).to be false
+      expect(body["results"]).to be_empty
+    end
+
+    it "returns a relavent result by tags" do
+      db_restaurant.save!
+      VCR.use_cassette('yelp') do
+        HarvesterIndex.yelp
       end
 
-      it "returns a relavent result" do
-        db_restaurant.save!
-        VCR.use_cassette('yelp') do
-          HarvesterIndex.yelp
-        end
+      get restaurants_path, {"k" => "chinese"}, {"Accept" => "application/json"}
+      expect(response.status).to eq 200
 
-        get restaurants_path, {"k" => "chinese"}, {"Accept" => "application/json"}
-        expect(response.status).to eq 200
+      body = JSON.parse(response.body)
+      json_restaurant = body["results"].first
 
-        body = JSON.parse(response.body)
-        p body
-        json_restaurant = body["results"].first
-        # p body
-        expect(body["records_found"]).to be true
-        expect(json_restaurant["id"]).to eq db_restaurant.id
-        expect(json_restaurant["name"]).to eq "Ovo Cafe"
+      expect(body["records_found"]).to be true
+      expect(json_restaurant["id"]).to eq db_restaurant.id
+      expect(json_restaurant["name"]).to eq "Ovo Cafe"
+    end
+
+    it "returns a relavent result by name" do
+      db_restaurant.name = "Test Restaurant"
+      db_restaurant.save!
+      VCR.use_cassette('yelp') do
+        HarvesterIndex.yelp
       end
+
+      get restaurants_path, {"k" => "test"}, {"Accept" => "application/json"}
+      expect(response.status).to eq 200
+
+      body = JSON.parse(response.body)
+      json_restaurant = body["results"].first
+
+      expect(body["records_found"]).to be true
+      expect(json_restaurant["id"]).to eq db_restaurant.id
+      expect(json_restaurant["name"]).to eq "Test Restaurant"
+      expect(json_restaurant["name"]).to_not eq "Ovo Cafe"
     end
   end
+
+  describe "multiple keywords" do
+    it "does not duplicate results" do
+      db_restaurant.save!
+      VCR.use_cassette('yelp') do
+        HarvesterIndex.yelp
+      end
+
+      get restaurants_path, {"k" => "ovo+chinese"}, {"Accept" => "application/json"}
+      expect(response.status).to eq 200
+
+      body = JSON.parse(response.body)
+      
+      expect(body["results"].length).to eq 1
+    end
+  end
+
 end

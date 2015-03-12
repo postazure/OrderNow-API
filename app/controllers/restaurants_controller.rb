@@ -4,14 +4,16 @@ class RestaurantsController < ApplicationController
     records_found: false,
     results:[],
     }
-    # puts "before"
+
     if params["k"]
-      keywords = extract_keywords(params["k"])
-      tag_results = search_by_tag(keywords)
-      # need to add search by name
-      tagged_restaurants = tag_results.map {|tag| tag}
-      return_records[:results].push(index_serializer(tagged_restaurants))
-      return_records[:results].flatten!.compact!
+      compiled_results = []
+      tag_results = search_by_tag(params["k"])
+      compiled_results.push(index_serializer(tag_results))
+
+      name_results = search_by_name(params["k"])
+      compiled_results.push(index_serializer(name_results))
+
+      return_records[:results] = compiled_results.flatten.compact.uniq
     else
       return_records[:results] = index_serializer(Restaurant.all)
     end
@@ -20,14 +22,17 @@ class RestaurantsController < ApplicationController
   end
 
   private
-  def search_by_tag keywords
+  def search_by_tag param
+    keywords = extract_keywords(param)
     query = keywords.map {|x| "%#{x}%"}
-
-    Restaurant.joins(:tags).where('text ilike any ( array[?] )', query)
+    results = Restaurant.joins(:tags).where('text ilike any ( array[?] )', query)
+    results.map{|restaurant| restaurant}
   end
 
-  def search_by_name keyword
-    return Restaurant.where('NAME ILIKE ?', "%#{keyword}%")
+  def search_by_name param
+    keywords = extract_keywords(param)
+    query = keywords.map {|x| "%#{x}%"}
+    Restaurant.where('name ilike any ( array[?] )', query)
   end
 
   def extract_keywords param
