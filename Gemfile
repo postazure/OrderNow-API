@@ -10,16 +10,18 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'dotenv-rails'
-
-  # For VCR
-  gem 'vcr'
-  gem 'webmock', '< 1.16'
 end
 
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "quiet_assets"
+end
+
+group :test do
+# For VCR
+gem 'vcr'
+gem 'webmock', '< 1.16'
 end
 
 #api response
