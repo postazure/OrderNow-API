@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150311165513) do
+ActiveRecord::Schema.define(version: 20150312185539) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150311165513) do
     t.integer  "redis_key"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "interval_rank"
   end
 
   create_table "restaurants_tags", id: false, force: true do |t|
