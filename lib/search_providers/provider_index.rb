@@ -12,7 +12,7 @@ class ProviderIndex
     self.save(restaurants)
     db_restaurants = Restaurant.where(yelp_url: nil)
     provider.get_yelp_urls(db_restaurants)
-    
+
     return restaurants
   end
 

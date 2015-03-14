@@ -11,7 +11,7 @@ class Restaurant < ActiveRecord::Base
     return if existing_records.empty?
     existing_records.each do |existing_record|
       if self.diff?(existing_record)
-        errors.add(:existing, "update")
+        # errors.add(:existing, "update")
       else
         errors.add(:existing, "exact")
       end
@@ -24,6 +24,7 @@ class Restaurant < ActiveRecord::Base
       "id",
       "created_at",
       "updated_at",
+      # "yelp_url"
     ]
 
     differences = []

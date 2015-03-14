@@ -36,19 +36,15 @@ class OrderAheadProvider < SearchProvider
         delivery_hours_end: hours["end"],
       })
       restaurants << new_restaurant
-      sleep(1.second) unless Rails.env.test?
     end
     return restaurants
   end
 
   def get_yelp_urls records
     records.each do |restaurant|
-
       restaurant_hash = find_by_id(restaurant.source_url)
-      if restaurant_hash && restaurant_hash["yelp_url"]
-        restaurant.yelp_url = restaurant_hash["yelp_url"]
-        restaurant.save
-      end
+      next unless restaurant_hash["yelp_url"]
+      restaurant.update({yelp_url:restaurant_hash["yelp_url"]})
     end
   end
 

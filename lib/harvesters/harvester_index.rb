@@ -7,11 +7,14 @@ class HarvesterIndex
 
   def self.yelp
     restaurants = Restaurant.where.not(yelp_url: nil)
-
     restaurants.each do |restaurant|
-      yelp_harvester = YelpHarvester.new(restaurant)
-      yelp_harvester.populate_data
-      yelp_harvester.populate_tags
+      begin
+        yelp_harvester = YelpHarvester.new(restaurant)
+        yelp_harvester.populate_data
+        yelp_harvester.populate_tags
+      rescue
+        next
+      end
     end
   end
 end
