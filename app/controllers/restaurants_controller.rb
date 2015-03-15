@@ -41,8 +41,10 @@ class RestaurantsController < ApplicationController
     yelp_attrs = ["rating","rating_image_url","review_count","snippet_text","snippet_image_url"]
 
     restaurant = serializer([db_restaurant], restaurant_attrs)[0]
-    restaurant["yelp_info"] = serializer([yelp], yelp_attrs)[0]
-    restaurant["tags"] = serializer(tags, tags_attrs)
+    if restaurant["yelp_url"]
+      restaurant["yelp_info"] = serializer([yelp], yelp_attrs)[0]
+      restaurant["tags"] = serializer(tags, tags_attrs)
+    end
     render json: restaurant
   end
 
@@ -69,6 +71,7 @@ class RestaurantsController < ApplicationController
     records.each do |record|
       display_record = {}
       include_attrs.each do |attribute|
+        # next if display_record[attribute].nil?
         display_record[attribute] = record.send(attribute)
       end
       display_records.push(display_record)
