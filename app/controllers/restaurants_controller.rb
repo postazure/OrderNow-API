@@ -71,8 +71,13 @@ class RestaurantsController < ApplicationController
     records.each do |record|
       display_record = {}
       include_attrs.each do |attribute|
-        # next if display_record[attribute].nil?
-        display_record[attribute] = record.send(attribute)
+        begin
+          puts "$"*100
+          p record
+          display_record[attribute] = record.send(attribute)
+        rescue
+          next
+        end
       end
       display_records.push(display_record)
     end
