@@ -1,7 +1,7 @@
 class RestaurantsController < ApplicationController
   def index
     return_records = {records_found: false, results:[]}
-    attrs = ["id", "name", "source_url", "delivery_hours_start", "delivery_hours_end"]
+    attrs = ["id", "name", "source_name", "source_url", "delivery_hours_start", "delivery_hours_end"]
 
     if params["k"]
       compiled_results = []
@@ -72,8 +72,6 @@ class RestaurantsController < ApplicationController
       display_record = {}
       include_attrs.each do |attribute|
         begin
-          puts "$"*100
-          p record
           display_record[attribute] = record.send(attribute)
         rescue
           next
