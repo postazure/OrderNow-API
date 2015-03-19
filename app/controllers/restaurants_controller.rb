@@ -1,7 +1,7 @@
 class RestaurantsController < ApplicationController
   def index
     return_records = {records_found: false, results:[]}
-    attrs = ["id", "name", "source_name", "source_url", "delivery_hours_start", "delivery_hours_end"]
+    attrs = ["id", "name", "source_name", "source_url", "delivery_hours_start", "delivery_hours_end", "interval_rank"]
 
     if params["k"]
       compiled_results = []
@@ -13,7 +13,7 @@ class RestaurantsController < ApplicationController
 
       return_records[:results] = compiled_results.flatten.compact.uniq
     else
-      return_records[:results] = serializer(Restaurant.all, attrs)
+      return_records[:results] = serializer(Restaurant.all.order(interval_rank: :desc), attrs)
     end
     return_records[:records_found] = true unless return_records[:results].empty?
     render json: return_records
@@ -53,13 +53,12 @@ class RestaurantsController < ApplicationController
     wait_time = params["wait"]
 
     restaurant = Restaurant.find_by id:restaurant_id
-    provider = restaurant.source_name
     day_of_week = Time.now.strftime("%A")
     hour_of_day = Time.now.strftime("%H")
     new_count = 1
     new_avg = wait_time
 
-    rdb_data = $redis.get("#{provider}:#{restaurant_id}:#{day_of_week}:#{hour_of_day}")
+    rdb_data = $redis.get("#{restaurant_id}:#{day_of_week}:#{hour_of_day}")
     begin
       rdb_hash = JSON.parse(rdb_data)
       p rdb_hash
@@ -71,7 +70,7 @@ class RestaurantsController < ApplicationController
     end
 
     new_data = {"avg" => new_avg, "count" => new_count}
-    if $redis.set("#{provider}:#{restaurant_id}:#{day_of_week}:#{hour_of_day}", new_data.to_json)
+    if $redis.set("#{restaurant_id}:#{day_of_week}:#{hour_of_day}", new_data.to_json)
       render nothing: true, status: 200
     else
       render nothing: true, status: 522
@@ -82,14 +81,14 @@ class RestaurantsController < ApplicationController
   def search_by_tag param
     keywords = extract_keywords(param)
     query = keywords.map {|x| "%#{x}%"}
-    results = Restaurant.joins(:tags).where('text ilike any ( array[?] )', query)
+    results = Restaurant.joins(:tags).where('text ilike any ( array[?] )', query).order(interval_rank: :desc)
     results.map{|restaurant| restaurant}
   end
 
   def search_by_name param
     keywords = extract_keywords(param)
     query = keywords.map {|x| "%#{x}%"}
-    Restaurant.where('name ilike any ( array[?] )', query)
+    Restaurant.where('name ilike any ( array[?] )', query).order(interval_rank: :desc)
   end
 
   def extract_keywords param
