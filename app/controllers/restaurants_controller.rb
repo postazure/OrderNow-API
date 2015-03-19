@@ -48,6 +48,36 @@ class RestaurantsController < ApplicationController
     render json: restaurant
   end
 
+  def historic
+    restaurant_id = params[:id]
+    wait_time = params["wait"]
+
+    restaurant = Restaurant.find_by id:restaurant_id
+    provider = restaurant.source_name
+    day_of_week = Time.now.strftime("%A")
+    hour_of_day = Time.now.strftime("%H")
+    new_count = 1
+    new_avg = wait_time
+
+    rdb_data = $redis.get("#{provider}:#{restaurant_id}:#{day_of_week}:#{hour_of_day}")
+    begin
+      rdb_hash = JSON.parse(rdb_data)
+      p rdb_hash
+      cur_avg = rdb_hash["avg"]
+      cur_count = rdb_hash["count"].to_i
+      new_count = cur_count + 1
+      new_avg = (wait_time + (cur_count * cur_avg))/new_count #moving average eq.
+    rescue
+    end
+
+    new_data = {"avg" => new_avg, "count" => new_count}
+    if $redis.set("#{provider}:#{restaurant_id}:#{day_of_week}:#{hour_of_day}", new_data.to_json)
+      render nothing: true, status: 200
+    else
+      render nothing: true, status: 522
+    end
+  end
+
   private
   def search_by_tag param
     keywords = extract_keywords(param)
