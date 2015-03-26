@@ -33,7 +33,7 @@ class YelpHarvester
   def populate_tags
     @yelp_data.categories.each do |capitolized_tag, downcased_tag|
       tag = @restaurant.tags.create({
-        text: downcased_tag
+        text: capitolized_tag
       })
       if tag.persisted?
         puts "[YelpHarvester#populate_tags] Saved tags for: #{@restaurant.name} Tag: #{tag.text}"
