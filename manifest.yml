@@ -1,0 +1,10 @@
+---
+ applications:
+ - name: DeliveryNowSF
+   memory: 512M
+   instances: 1
+   host: DeliveryNowSF
+   domain: mybluemix.net
+   path: .
+   services:
+   - DeliveryNowSF-db
