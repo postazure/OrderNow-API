@@ -12,22 +12,23 @@ class YelpHarvester
   end
 
   def populate_data
-    yelp_info = YelpInfo.new({
+    found_record = Restaurant.find_by(id: @restaurant.id)
+    info_hash = {
       rating: @yelp_data.rating,
       rating_image_url: @yelp_data.rating_img_url,
       review_count: @yelp_data.review_count,
       snippet_text: @yelp_data.snippet_text,
       snippet_image_url: @yelp_data.snippet_image_url,
       restaurant_id: @restaurant.id,
-    })
+    }
 
-    is_saved = yelp_info.save
-    if is_saved
-      puts "[YelpHarvester#populate_data] Saved yelp data for: #{@restaurant.name}"
+    if found_record
+      updated_record = found_record.yelp_info.update(info_hash)
+      puts "[YelpHarvester#populate_data] Updated yelp data for: #{@restaurant.name}"
     else
-      puts "[YelpHarvester#populate_data] Error while saving yelp data for: #{@restaurant.name}"
+      new_record = YelpInfo.create(info_hash)
+      puts "[YelpHarvester#populate_data] Created yelp data for: #{@restaurant.name}"
     end
-    return is_saved
   end
 
   def populate_tags

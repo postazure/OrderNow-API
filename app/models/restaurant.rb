@@ -1,23 +1,24 @@
 class Restaurant < ActiveRecord::Base
   has_one :yelp_info
   has_many :tags
+  validates :name, uniqueness:{ scope: :source_url }
 
-  validate :find_and_save_or_update
-
-  def find_and_save_or_update
-    # errors: exact   -> no change to record
-    # errors: update  -> change has been made, requires update
-    existing_records = Restaurant.where ({name: self.name, source_name: self.source_name})
-    return if existing_records.empty?
-    existing_records.each do |existing_record|
-      if self.diff?(existing_record)
-        # errors.add(:existing, "update")
-      else
-        errors.add(:existing, "exact")
-      end
-      return if errors
-    end
-  end
+  # validate :find_and_save_or_update
+  #
+  # def find_and_save_or_update
+  #   # errors: exact   -> no change to record
+  #   # errors: update  -> change has been made, requires update
+  #   existing_records = Restaurant.where ({name: self.name, source_name: self.source_name})
+  #   return if existing_records.empty?
+  #   existing_records.each do |existing_record|
+  #     if self.diff?(existing_record)
+  #       # errors.add(:existing, "update")
+  #     else
+  #       errors.add(:existing, "exact")
+  #     end
+  #     return if errors
+  #   end
+  # end
 
   def diff other_restaurant
     skip_attr = [

@@ -24,7 +24,7 @@ class OrderAheadProvider < SearchProvider
   def to_restaurants data
     restaurants = []
     data["stores"].each_with_index do |restaurant, i|
-      puts "[OrderAheadProvider#to_restaurant] Creating record for #{restaurant["name"]}. (#{i})"
+      # puts "[OrderAheadProvider#to_restaurant] Creating record for #{restaurant["name"]}. (#{i})"
       hours = open_hours(restaurant["hours_today"])
       new_restaurant = Restaurant.new({
         name: restaurant["name"],
@@ -42,18 +42,15 @@ class OrderAheadProvider < SearchProvider
 
   def get_yelp_urls records
     records.each do |restaurant|
+      next if restaurant.yelp_url
+      print "[Adding Yelp URL] #{restaurant.name}, Saved: "
       restaurant_hash = find_by_id(restaurant.source_url)
-      next unless restaurant_hash["yelp_url"]
-      restaurant.update({yelp_url:restaurant_hash["yelp_url"]})
+      puts restaurant.update({yelp_url:restaurant_hash["yelp_url"]}) if restaurant_hash.has_key?("yelp_url")
     end
   end
 
   def open_hours data
     hours = data[5..-1].split("-").map {|x| x.strip}
     {"start" => hours[0], "end" => hours[1]}
-  end
-
-  def is_provider?
-    true
   end
 end
