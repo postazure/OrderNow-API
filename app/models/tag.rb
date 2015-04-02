@@ -1,4 +1,4 @@
 class Tag < ActiveRecord::Base
-  # validates :text, uniqueness: true
-  has_and_belongs_to_many :restaurants, join_table: :restaurants_tags
+  validates :text, uniqueness: true, scope: :restaurant_id
+  belongs_to :restaurants
 end
